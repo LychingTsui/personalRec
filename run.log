@@ -1,0 +1,3411 @@
+nohup: 忽略输入
+rm: `/user/tvapk/cuiliqing/outpsn': No such file or directory
+18/02/01 20:37:41 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/movie' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/movie
+18/02/01 20:37:45 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:37:46 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:37:46 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:37:46 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:37:46 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:37:46 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837861
+18/02/01 20:37:47 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837861
+18/02/01 20:37:47 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837861/
+18/02/01 20:37:47 INFO mapreduce.Job: Running job: job_1493284465466_837861
+18/02/01 20:37:52 INFO mapreduce.Job: Job job_1493284465466_837861 running in uber mode : false
+18/02/01 20:37:52 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:37:57 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:38:03 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:38:04 INFO mapreduce.Job: Job job_1493284465466_837861 completed successfully
+18/02/01 20:38:04 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=307432
+		FILE: Number of bytes written=843277
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=7931487
+		HDFS: Number of bytes written=173315
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=3226
+		Total time spent by all reduces in occupied slots (ms)=3348
+		Total time spent by all map tasks (ms)=3226
+		Total time spent by all reduce tasks (ms)=3348
+		Total vcore-seconds taken by all map tasks=3226
+		Total vcore-seconds taken by all reduce tasks=3348
+		Total megabyte-seconds taken by all map tasks=3303424
+		Total megabyte-seconds taken by all reduce tasks=3428352
+	Map-Reduce Framework
+		Map input records=6880
+		Map output records=19817
+		Map output bytes=267791
+		Map output materialized bytes=307432
+		Input split bytes=348
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=10504
+		Reduce shuffle bytes=307432
+		Reduce input records=19817
+		Reduce output records=10504
+		Spilled Records=39634
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=440
+		CPU time spent (ms)=3930
+		Physical memory (bytes) snapshot=545980416
+		Virtual memory (bytes) snapshot=5634068480
+		Total committed heap usage (bytes)=612368384
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=173315
+rm: `/user/tvapk/cuiliqing/movie/act': No such file or directory
+18/02/01 20:38:13 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/outpsn' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/outpsn
+18/02/01 20:38:17 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:38:18 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:38:18 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:38:18 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:38:18 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:38:18 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837863
+18/02/01 20:38:19 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837863
+18/02/01 20:38:19 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837863/
+18/02/01 20:38:19 INFO mapreduce.Job: Running job: job_1493284465466_837863
+18/02/01 20:38:25 INFO mapreduce.Job: Job job_1493284465466_837863 running in uber mode : false
+18/02/01 20:38:25 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:38:30 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:38:35 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:38:36 INFO mapreduce.Job: Job job_1493284465466_837863 completed successfully
+18/02/01 20:38:36 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=107376
+		FILE: Number of bytes written=443181
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=7931490
+		HDFS: Number of bytes written=70819
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=3219
+		Total time spent by all reduces in occupied slots (ms)=2806
+		Total time spent by all map tasks (ms)=3219
+		Total time spent by all reduce tasks (ms)=2806
+		Total vcore-seconds taken by all map tasks=3219
+		Total vcore-seconds taken by all reduce tasks=2806
+		Total megabyte-seconds taken by all map tasks=3296256
+		Total megabyte-seconds taken by all reduce tasks=2873344
+	Map-Reduce Framework
+		Map input records=6880
+		Map output records=6869
+		Map output bytes=93632
+		Map output materialized bytes=107376
+		Input split bytes=351
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=4294
+		Reduce shuffle bytes=107376
+		Reduce input records=6869
+		Reduce output records=4294
+		Spilled Records=13738
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=121
+		CPU time spent (ms)=2890
+		Physical memory (bytes) snapshot=506060800
+		Virtual memory (bytes) snapshot=5643100160
+		Total committed heap usage (bytes)=543686656
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=70819
+rm: `/user/tvapk/cuiliqing/movie/direct': No such file or directory
+18/02/01 20:38:45 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/outpsn' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/outpsn1517488725277
+18/02/01 20:38:49 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/tagslabel/label.txt' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/tagslabel/label.txt
+18/02/01 20:38:55 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:38:55 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:38:55 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:38:55 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:38:55 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:38:55 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837865
+18/02/01 20:38:56 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837865
+18/02/01 20:38:56 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837865/
+18/02/01 20:38:56 INFO mapreduce.Job: Running job: job_1493284465466_837865
+18/02/01 20:39:01 INFO mapreduce.Job: Job job_1493284465466_837865 running in uber mode : false
+18/02/01 20:39:01 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:39:06 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:39:12 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:39:13 INFO mapreduce.Job: Job job_1493284465466_837865 completed successfully
+18/02/01 20:39:13 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=535370
+		FILE: Number of bytes written=1300991
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=7931494
+		HDFS: Number of bytes written=101029
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=3054
+		Total time spent by all reduces in occupied slots (ms)=3092
+		Total time spent by all map tasks (ms)=3054
+		Total time spent by all reduce tasks (ms)=3092
+		Total vcore-seconds taken by all map tasks=3054
+		Total vcore-seconds taken by all reduce tasks=3092
+		Total megabyte-seconds taken by all map tasks=3127296
+		Total megabyte-seconds taken by all reduce tasks=3166208
+	Map-Reduce Framework
+		Map input records=6880
+		Map output records=51059
+		Map output bytes=433246
+		Map output materialized bytes=535370
+		Input split bytes=355
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=7035
+		Reduce shuffle bytes=535370
+		Reduce input records=51059
+		Reduce output records=7035
+		Spilled Records=102118
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=328
+		CPU time spent (ms)=4050
+		Physical memory (bytes) snapshot=540246016
+		Virtual memory (bytes) snapshot=5645062144
+		Total committed heap usage (bytes)=540016640
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=101029
+rm: `/user/tvapk/cuiliqing/movie/movieTags': No such file or directory
+18/02/01 20:39:22 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/outpsn' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/outpsn1517488762762
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/featuresIdx.txt": 没有那个文件或目录
+18/02/01 20:39:30 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:39:31 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:39:31 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:39:31 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:39:31 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837867
+18/02/01 20:39:32 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837867
+18/02/01 20:39:32 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837867/
+18/02/01 20:39:32 INFO mapreduce.Job: Running job: job_1493284465466_837867
+18/02/01 20:39:38 INFO mapreduce.Job: Job job_1493284465466_837867 running in uber mode : false
+18/02/01 20:39:38 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:39:43 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:39:49 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:39:49 INFO mapreduce.Job: Job job_1493284465466_837867 completed successfully
+18/02/01 20:39:49 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1082259
+		FILE: Number of bytes written=2396709
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=7931487
+		HDFS: Number of bytes written=1063269
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=3521
+		Total time spent by all reduces in occupied slots (ms)=3147
+		Total time spent by all map tasks (ms)=3521
+		Total time spent by all reduce tasks (ms)=3147
+		Total vcore-seconds taken by all map tasks=3521
+		Total vcore-seconds taken by all reduce tasks=3147
+		Total megabyte-seconds taken by all map tasks=3605504
+		Total megabyte-seconds taken by all reduce tasks=3222528
+	Map-Reduce Framework
+		Map input records=6880
+		Map output records=6880
+		Map output bytes=1065879
+		Map output materialized bytes=1082259
+		Input split bytes=348
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=6880
+		Reduce shuffle bytes=1082259
+		Reduce input records=6880
+		Reduce output records=6880
+		Spilled Records=13760
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=132
+		CPU time spent (ms)=5380
+		Physical memory (bytes) snapshot=567205888
+		Virtual memory (bytes) snapshot=5641736192
+		Total committed heap usage (bytes)=645922816
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1063269
+18/02/01 20:39:51 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/movieItemFeatures' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/movieItemFeatures
+18/02/01 20:39:56 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/outpsn' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/outpsn1517488796022
+18/02/01 20:40:00 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:40:01 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:40:01 INFO mapreduce.JobSubmitter: number of splits:3
+18/02/01 20:40:01 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:40:01 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837868
+18/02/01 20:40:01 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837868
+18/02/01 20:40:01 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837868/
+18/02/01 20:40:01 INFO mapreduce.Job: Running job: job_1493284465466_837868
+18/02/01 20:40:07 INFO mapreduce.Job: Job job_1493284465466_837868 running in uber mode : false
+18/02/01 20:40:07 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:40:18 INFO mapreduce.Job:  map 46% reduce 0%
+18/02/01 20:40:21 INFO mapreduce.Job:  map 61% reduce 0%
+18/02/01 20:40:24 INFO mapreduce.Job:  map 68% reduce 0%
+18/02/01 20:40:26 INFO mapreduce.Job:  map 74% reduce 0%
+18/02/01 20:40:27 INFO mapreduce.Job:  map 78% reduce 0%
+18/02/01 20:40:32 INFO mapreduce.Job:  map 83% reduce 0%
+18/02/01 20:40:33 INFO mapreduce.Job:  map 89% reduce 0%
+18/02/01 20:40:35 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:40:47 INFO mapreduce.Job:  map 100% reduce 47%
+18/02/01 20:40:50 INFO mapreduce.Job:  map 100% reduce 55%
+18/02/01 20:40:53 INFO mapreduce.Job:  map 100% reduce 63%
+18/02/01 20:40:56 INFO mapreduce.Job:  map 100% reduce 72%
+18/02/01 20:40:59 INFO mapreduce.Job:  map 100% reduce 84%
+18/02/01 20:41:02 INFO mapreduce.Job:  map 100% reduce 96%
+18/02/01 20:41:03 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:41:03 INFO mapreduce.Job: Job job_1493284465466_837868 completed successfully
+18/02/01 20:41:03 INFO mapreduce.Job: Counters: 51
+	File System Counters
+		FILE: Number of bytes read=305857227
+		FILE: Number of bytes written=476346989
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=671825191
+		HDFS: Number of bytes written=79516
+		HDFS: Number of read operations=12
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=4
+		Launched reduce tasks=1
+		Data-local map tasks=3
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=77004
+		Total time spent by all reduces in occupied slots (ms)=24676
+		Total time spent by all map tasks (ms)=77004
+		Total time spent by all reduce tasks (ms)=24676
+		Total vcore-seconds taken by all map tasks=77004
+		Total vcore-seconds taken by all reduce tasks=24676
+		Total megabyte-seconds taken by all map tasks=78852096
+		Total megabyte-seconds taken by all reduce tasks=25268224
+	Map-Reduce Framework
+		Map input records=892432
+		Map output records=16694359
+		Map output bytes=136639449
+		Map output materialized bytes=170028185
+		Input split bytes=1032
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=6490
+		Reduce shuffle bytes=170028185
+		Reduce input records=16694359
+		Reduce output records=6490
+		Spilled Records=46723476
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=879
+		CPU time spent (ms)=88310
+		Physical memory (bytes) snapshot=1970745344
+		Virtual memory (bytes) snapshot=11247808512
+		Total committed heap usage (bytes)=2154299392
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=79516
+18/02/01 20:41:05 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/personalLikesKey' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/personalLikesKey
+18/02/01 20:41:10 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/outpsn' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/outpsn1517488870686
+18/02/01 20:41:17 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/movieLikesCache' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/movieLikesCache
+18/02/01 20:41:28 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:41:29 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:41:29 INFO mapreduce.JobSubmitter: number of splits:3
+18/02/01 20:41:29 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:41:29 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837873
+18/02/01 20:41:30 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837873
+18/02/01 20:41:30 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837873/
+18/02/01 20:41:30 INFO mapreduce.Job: Running job: job_1493284465466_837873
+18/02/01 20:41:35 INFO mapreduce.Job: Job job_1493284465466_837873 running in uber mode : false
+18/02/01 20:41:35 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:41:45 INFO mapreduce.Job:  map 53% reduce 0%
+18/02/01 20:41:48 INFO mapreduce.Job:  map 66% reduce 0%
+18/02/01 20:41:51 INFO mapreduce.Job:  map 82% reduce 0%
+18/02/01 20:41:52 INFO mapreduce.Job:  map 88% reduce 0%
+18/02/01 20:41:53 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:42:03 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:42:04 INFO mapreduce.Job: Job job_1493284465466_837873 completed successfully
+18/02/01 20:42:04 INFO mapreduce.Job: Counters: 50
+	File System Counters
+		FILE: Number of bytes read=863537612
+		FILE: Number of bytes written=1298464892
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=671825152
+		HDFS: Number of bytes written=427223967
+		HDFS: Number of read operations=12
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=4
+		Launched reduce tasks=1
+		Data-local map tasks=4
+		Total time spent by all maps in occupied slots (ms)=45968
+		Total time spent by all reduces in occupied slots (ms)=7455
+		Total time spent by all map tasks (ms)=45968
+		Total time spent by all reduce tasks (ms)=7455
+		Total vcore-seconds taken by all map tasks=45968
+		Total vcore-seconds taken by all reduce tasks=7455
+		Total megabyte-seconds taken by all map tasks=47071232
+		Total megabyte-seconds taken by all reduce tasks=7633920
+	Map-Reduce Framework
+		Map input records=892432
+		Map output records=892415
+		Map output bytes=428603866
+		Map output materialized bytes=431768791
+		Input split bytes=993
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=892415
+		Reduce shuffle bytes=431768791
+		Reduce input records=892415
+		Reduce output records=892415
+		Spilled Records=2677245
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=989
+		CPU time spent (ms)=57610
+		Physical memory (bytes) snapshot=2059083776
+		Virtual memory (bytes) snapshot=11268022272
+		Total committed heap usage (bytes)=2021654528
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=427223967
+rm: `/user/tvapk/cuiliqing/personalLikes': No such file or directory
+18/02/01 20:42:13 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/outpsn' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/outpsn1517488933881
+rm: `/user/tvapk/cuiliqing/outVvHistory': No such file or directory
+18/02/01 20:42:22 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:42:22 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:42:23 INFO input.FileInputFormat: Total input paths to process : 91
+18/02/01 20:42:23 INFO mapreduce.JobSubmitter: number of splits:91
+18/02/01 20:42:23 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:42:23 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837876
+18/02/01 20:42:24 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837876
+18/02/01 20:42:24 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837876/
+18/02/01 20:42:24 INFO mapreduce.Job: Running job: job_1493284465466_837876
+18/02/01 20:42:29 INFO mapreduce.Job: Job job_1493284465466_837876 running in uber mode : false
+18/02/01 20:42:29 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:42:34 INFO mapreduce.Job:  map 1% reduce 0%
+18/02/01 20:42:35 INFO mapreduce.Job:  map 8% reduce 0%
+18/02/01 20:42:36 INFO mapreduce.Job:  map 11% reduce 0%
+18/02/01 20:42:37 INFO mapreduce.Job:  map 14% reduce 0%
+18/02/01 20:42:38 INFO mapreduce.Job:  map 20% reduce 0%
+18/02/01 20:42:39 INFO mapreduce.Job:  map 23% reduce 0%
+18/02/01 20:42:40 INFO mapreduce.Job:  map 31% reduce 0%
+18/02/01 20:42:41 INFO mapreduce.Job:  map 34% reduce 0%
+18/02/01 20:42:42 INFO mapreduce.Job:  map 38% reduce 0%
+18/02/01 20:42:43 INFO mapreduce.Job:  map 44% reduce 0%
+18/02/01 20:42:44 INFO mapreduce.Job:  map 47% reduce 0%
+18/02/01 20:42:45 INFO mapreduce.Job:  map 54% reduce 0%
+18/02/01 20:42:46 INFO mapreduce.Job:  map 58% reduce 0%
+18/02/01 20:42:47 INFO mapreduce.Job:  map 62% reduce 0%
+18/02/01 20:42:48 INFO mapreduce.Job:  map 67% reduce 0%
+18/02/01 20:42:49 INFO mapreduce.Job:  map 71% reduce 0%
+18/02/01 20:42:50 INFO mapreduce.Job:  map 76% reduce 0%
+18/02/01 20:42:51 INFO mapreduce.Job:  map 80% reduce 0%
+18/02/01 20:42:52 INFO mapreduce.Job:  map 84% reduce 0%
+18/02/01 20:42:53 INFO mapreduce.Job:  map 90% reduce 0%
+18/02/01 20:42:54 INFO mapreduce.Job:  map 97% reduce 0%
+18/02/01 20:42:55 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:43:06 INFO mapreduce.Job:  map 100% reduce 52%
+18/02/01 20:43:09 INFO mapreduce.Job:  map 100% reduce 74%
+18/02/01 20:43:12 INFO mapreduce.Job:  map 100% reduce 85%
+18/02/01 20:43:15 INFO mapreduce.Job:  map 100% reduce 97%
+18/02/01 20:43:16 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:43:16 INFO mapreduce.Job: Job job_1493284465466_837876 completed successfully
+18/02/01 20:43:16 INFO mapreduce.Job: Counters: 50
+	File System Counters
+		FILE: Number of bytes read=581645778
+		FILE: Number of bytes written=1176317200
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=401740350
+		HDFS: Number of bytes written=133844754
+		HDFS: Number of read operations=276
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=91
+		Launched reduce tasks=1
+		Data-local map tasks=90
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=375868
+		Total time spent by all reduces in occupied slots (ms)=17841
+		Total time spent by all map tasks (ms)=375868
+		Total time spent by all reduce tasks (ms)=17841
+		Total vcore-seconds taken by all map tasks=375868
+		Total vcore-seconds taken by all reduce tasks=17841
+		Total megabyte-seconds taken by all map tasks=384888832
+		Total megabyte-seconds taken by all reduce tasks=18269184
+	Map-Reduce Framework
+		Map input records=1727734
+		Map output records=5547367
+		Map output bytes=570551032
+		Map output materialized bytes=581646312
+		Input split bytes=28938
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=709624
+		Reduce shuffle bytes=581646312
+		Reduce input records=5547367
+		Reduce output records=709624
+		Spilled Records=11094734
+		Shuffled Maps =91
+		Failed Shuffles=0
+		Merged Map outputs=91
+		GC time elapsed (ms)=10799
+		CPU time spent (ms)=189790
+		Physical memory (bytes) snapshot=29659123712
+		Virtual memory (bytes) snapshot=257910202368
+		Total committed heap usage (bytes)=31962169344
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=133844754
+rm: `/user/tvapk/cuiliqing/2017112TodayvvHistory': No such file or directory
+18/02/01 20:43:24 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/outVvHistory' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/outVvHistory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/totvvguid.txt": 没有那个文件或目录
+rm: `/user/tvapk/cuiliqing/extWithvvHistory': No such file or directory
+rm: `/user/tvapk/cuiliqing/showdata': No such file or directory
+rm: `/user/tvapk/cuiliqing/20180131vvtmp01': No such file or directory
+18/02/01 20:43:38 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:43:38 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:43:39 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:43:39 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:43:39 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:43:39 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837881
+18/02/01 20:43:39 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837881
+18/02/01 20:43:39 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837881/
+18/02/01 20:43:39 INFO mapreduce.Job: Running job: job_1493284465466_837881
+18/02/01 20:43:44 INFO mapreduce.Job: Job job_1493284465466_837881 running in uber mode : false
+18/02/01 20:43:44 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:43:50 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:43:56 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:43:56 INFO mapreduce.Job: Job job_1493284465466_837881 completed successfully
+18/02/01 20:43:57 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1086284
+		FILE: Number of bytes written=2400869
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3840624
+		HDFS: Number of bytes written=1000232
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=3777
+		Total time spent by all reduces in occupied slots (ms)=2768
+		Total time spent by all map tasks (ms)=3777
+		Total time spent by all reduce tasks (ms)=2768
+		Total vcore-seconds taken by all map tasks=3777
+		Total vcore-seconds taken by all reduce tasks=2768
+		Total megabyte-seconds taken by all map tasks=3867648
+		Total megabyte-seconds taken by all reduce tasks=2834432
+	Map-Reduce Framework
+		Map input records=14342
+		Map output records=14341
+		Map output bytes=1057596
+		Map output materialized bytes=1086284
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=14341
+		Reduce shuffle bytes=1086284
+		Reduce input records=14341
+		Reduce output records=14341
+		Spilled Records=28682
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=329
+		CPU time spent (ms)=3130
+		Physical memory (bytes) snapshot=519593984
+		Virtual memory (bytes) snapshot=5636243456
+		Total committed heap usage (bytes)=558366720
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1000232
+rm: `/user/tvapk/cuiliqing/20180131vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180131vvguid": 没有那个文件或目录
+18/02/01 20:44:07 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180131vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180131vvguid
+18/02/01 20:44:09 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180131vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180131vvtmp01
+rm: `/user/tvapk/cuiliqing/20180130vvtmp01': No such file or directory
+18/02/01 20:44:19 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:44:20 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:44:20 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:44:20 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:44:20 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:44:20 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837883
+18/02/01 20:44:20 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837883
+18/02/01 20:44:21 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837883/
+18/02/01 20:44:21 INFO mapreduce.Job: Running job: job_1493284465466_837883
+18/02/01 20:44:26 INFO mapreduce.Job: Job job_1493284465466_837883 running in uber mode : false
+18/02/01 20:44:26 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:44:31 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:44:37 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:44:37 INFO mapreduce.Job: Job job_1493284465466_837883 completed successfully
+18/02/01 20:44:37 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1062882
+		FILE: Number of bytes written=2354065
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3609472
+		HDFS: Number of bytes written=978642
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=3327
+		Total time spent by all reduces in occupied slots (ms)=2960
+		Total time spent by all map tasks (ms)=3327
+		Total time spent by all reduce tasks (ms)=2960
+		Total vcore-seconds taken by all map tasks=3327
+		Total vcore-seconds taken by all reduce tasks=2960
+		Total megabyte-seconds taken by all map tasks=3406848
+		Total megabyte-seconds taken by all reduce tasks=3031040
+	Map-Reduce Framework
+		Map input records=14040
+		Map output records=14039
+		Map output bytes=1034798
+		Map output materialized bytes=1062882
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=14039
+		Reduce shuffle bytes=1062882
+		Reduce input records=14039
+		Reduce output records=14039
+		Spilled Records=28078
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=102
+		CPU time spent (ms)=3120
+		Physical memory (bytes) snapshot=504246272
+		Virtual memory (bytes) snapshot=5638701056
+		Total committed heap usage (bytes)=536870912
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=978642
+rm: `/user/tvapk/cuiliqing/20180130vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180130vvguid": 没有那个文件或目录
+18/02/01 20:44:46 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180130vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180130vvguid
+18/02/01 20:44:48 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180130vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180130vvtmp01
+rm: `/user/tvapk/cuiliqing/20180129vvtmp01': No such file or directory
+18/02/01 20:44:57 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:44:58 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:44:58 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:44:58 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:44:58 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:44:58 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837884
+18/02/01 20:44:58 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837884
+18/02/01 20:44:59 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837884/
+18/02/01 20:44:59 INFO mapreduce.Job: Running job: job_1493284465466_837884
+18/02/01 20:45:05 INFO mapreduce.Job: Job job_1493284465466_837884 running in uber mode : false
+18/02/01 20:45:05 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:45:09 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:45:14 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:45:15 INFO mapreduce.Job: Job job_1493284465466_837884 completed successfully
+18/02/01 20:45:15 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1095978
+		FILE: Number of bytes written=2420257
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3707092
+		HDFS: Number of bytes written=1009086
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2640
+		Total time spent by all reduces in occupied slots (ms)=2973
+		Total time spent by all map tasks (ms)=2640
+		Total time spent by all reduce tasks (ms)=2973
+		Total vcore-seconds taken by all map tasks=2640
+		Total vcore-seconds taken by all reduce tasks=2973
+		Total megabyte-seconds taken by all map tasks=2703360
+		Total megabyte-seconds taken by all reduce tasks=3044352
+	Map-Reduce Framework
+		Map input records=14482
+		Map output records=14481
+		Map output bytes=1067010
+		Map output materialized bytes=1095978
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=14481
+		Reduce shuffle bytes=1095978
+		Reduce input records=14481
+		Reduce output records=14481
+		Spilled Records=28962
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=288
+		CPU time spent (ms)=3030
+		Physical memory (bytes) snapshot=526512128
+		Virtual memory (bytes) snapshot=5649383424
+		Total committed heap usage (bytes)=489684992
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1009086
+rm: `/user/tvapk/cuiliqing/20180129vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180129vvguid": 没有那个文件或目录
+18/02/01 20:45:24 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180129vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180129vvguid
+18/02/01 20:45:26 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180129vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180129vvtmp01
+rm: `/user/tvapk/cuiliqing/20180128vvtmp01': No such file or directory
+18/02/01 20:45:35 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:45:36 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:45:36 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:45:36 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:45:36 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:45:36 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837887
+18/02/01 20:45:37 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837887
+18/02/01 20:45:37 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837887/
+18/02/01 20:45:37 INFO mapreduce.Job: Running job: job_1493284465466_837887
+18/02/01 20:45:42 INFO mapreduce.Job: Job job_1493284465466_837887 running in uber mode : false
+18/02/01 20:45:42 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:45:47 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:45:53 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:45:53 INFO mapreduce.Job: Job job_1493284465466_837887 completed successfully
+18/02/01 20:45:53 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1500726
+		FILE: Number of bytes written=3229753
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=5001201
+		HDFS: Number of bytes written=1381788
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2998
+		Total time spent by all reduces in occupied slots (ms)=2841
+		Total time spent by all map tasks (ms)=2998
+		Total time spent by all reduce tasks (ms)=2841
+		Total vcore-seconds taken by all map tasks=2998
+		Total vcore-seconds taken by all reduce tasks=2841
+		Total megabyte-seconds taken by all map tasks=3069952
+		Total megabyte-seconds taken by all reduce tasks=2909184
+	Map-Reduce Framework
+		Map input records=19823
+		Map output records=19822
+		Map output bytes=1461076
+		Map output materialized bytes=1500726
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=19822
+		Reduce shuffle bytes=1500726
+		Reduce input records=19822
+		Reduce output records=19822
+		Spilled Records=39644
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=150
+		CPU time spent (ms)=2980
+		Physical memory (bytes) snapshot=526995456
+		Virtual memory (bytes) snapshot=5635137536
+		Total committed heap usage (bytes)=559415296
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1381788
+rm: `/user/tvapk/cuiliqing/20180128vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180128vvguid": 没有那个文件或目录
+18/02/01 20:46:02 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180128vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180128vvguid
+18/02/01 20:46:04 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180128vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180128vvtmp01
+rm: `/user/tvapk/cuiliqing/20180127vvtmp01': No such file or directory
+18/02/01 20:46:15 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:46:16 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:46:16 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:46:16 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:46:16 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:46:17 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837889
+18/02/01 20:46:17 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837889
+18/02/01 20:46:17 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837889/
+18/02/01 20:46:17 INFO mapreduce.Job: Running job: job_1493284465466_837889
+18/02/01 20:46:22 INFO mapreduce.Job: Job job_1493284465466_837889 running in uber mode : false
+18/02/01 20:46:22 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:46:28 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:46:33 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:46:33 INFO mapreduce.Job: Job job_1493284465466_837889 completed successfully
+18/02/01 20:46:33 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1555505
+		FILE: Number of bytes written=3339311
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=5286688
+		HDFS: Number of bytes written=1432181
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=3376
+		Total time spent by all reduces in occupied slots (ms)=3191
+		Total time spent by all map tasks (ms)=3376
+		Total time spent by all reduce tasks (ms)=3191
+		Total vcore-seconds taken by all map tasks=3376
+		Total vcore-seconds taken by all reduce tasks=3191
+		Total megabyte-seconds taken by all map tasks=3457024
+		Total megabyte-seconds taken by all reduce tasks=3267584
+	Map-Reduce Framework
+		Map input records=20554
+		Map output records=20553
+		Map output bytes=1514393
+		Map output materialized bytes=1555505
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=20553
+		Reduce shuffle bytes=1555505
+		Reduce input records=20553
+		Reduce output records=20553
+		Spilled Records=41106
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=149
+		CPU time spent (ms)=3660
+		Physical memory (bytes) snapshot=472973312
+		Virtual memory (bytes) snapshot=5640601600
+		Total committed heap usage (bytes)=521666560
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1432181
+rm: `/user/tvapk/cuiliqing/20180127vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180127vvguid": 没有那个文件或目录
+18/02/01 20:46:42 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180127vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180127vvguid
+18/02/01 20:46:45 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180127vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180127vvtmp01
+rm: `/user/tvapk/cuiliqing/20180126vvtmp01': No such file or directory
+18/02/01 20:46:56 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:46:57 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:46:57 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:46:57 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:46:57 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:46:57 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837892
+18/02/01 20:46:57 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837892
+18/02/01 20:46:57 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837892/
+18/02/01 20:46:57 INFO mapreduce.Job: Running job: job_1493284465466_837892
+18/02/01 20:47:04 INFO mapreduce.Job: Job job_1493284465466_837892 running in uber mode : false
+18/02/01 20:47:04 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:47:09 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:47:14 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:47:15 INFO mapreduce.Job: Job job_1493284465466_837892 completed successfully
+18/02/01 20:47:15 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1268985
+		FILE: Number of bytes written=2766271
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=4290366
+		HDFS: Number of bytes written=1168467
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=3232
+		Total time spent by all reduces in occupied slots (ms)=2817
+		Total time spent by all map tasks (ms)=3232
+		Total time spent by all reduce tasks (ms)=2817
+		Total vcore-seconds taken by all map tasks=3232
+		Total vcore-seconds taken by all reduce tasks=2817
+		Total megabyte-seconds taken by all map tasks=3309568
+		Total megabyte-seconds taken by all reduce tasks=2884608
+	Map-Reduce Framework
+		Map input records=16753
+		Map output records=16752
+		Map output bytes=1235475
+		Map output materialized bytes=1268985
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=16752
+		Reduce shuffle bytes=1268985
+		Reduce input records=16752
+		Reduce output records=16752
+		Spilled Records=33504
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=264
+		CPU time spent (ms)=3330
+		Physical memory (bytes) snapshot=514883584
+		Virtual memory (bytes) snapshot=5648166912
+		Total committed heap usage (bytes)=559939584
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1168467
+rm: `/user/tvapk/cuiliqing/20180126vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180126vvguid": 没有那个文件或目录
+18/02/01 20:47:23 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180126vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180126vvguid
+18/02/01 20:47:25 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180126vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180126vvtmp01
+rm: `/user/tvapk/cuiliqing/20180125vvtmp01': No such file or directory
+18/02/01 20:47:36 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:47:36 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:47:36 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:47:36 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:47:36 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:47:37 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837895
+18/02/01 20:47:37 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837895
+18/02/01 20:47:37 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837895/
+18/02/01 20:47:37 INFO mapreduce.Job: Running job: job_1493284465466_837895
+18/02/01 20:47:42 INFO mapreduce.Job: Job job_1493284465466_837895 running in uber mode : false
+18/02/01 20:47:42 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:47:47 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:47:52 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:47:52 INFO mapreduce.Job: Job job_1493284465466_837895 completed successfully
+18/02/01 20:47:52 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1221964
+		FILE: Number of bytes written=2672229
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=4169499
+		HDFS: Number of bytes written=1125184
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2640
+		Total time spent by all reduces in occupied slots (ms)=2999
+		Total time spent by all map tasks (ms)=2640
+		Total time spent by all reduce tasks (ms)=2999
+		Total vcore-seconds taken by all map tasks=2640
+		Total vcore-seconds taken by all reduce tasks=2999
+		Total megabyte-seconds taken by all map tasks=2703360
+		Total megabyte-seconds taken by all reduce tasks=3070976
+	Map-Reduce Framework
+		Map input records=16130
+		Map output records=16129
+		Map output bytes=1189700
+		Map output materialized bytes=1221964
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=16129
+		Reduce shuffle bytes=1221964
+		Reduce input records=16129
+		Reduce output records=16129
+		Spilled Records=32258
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=213
+		CPU time spent (ms)=3080
+		Physical memory (bytes) snapshot=485212160
+		Virtual memory (bytes) snapshot=5634654208
+		Total committed heap usage (bytes)=536346624
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1125184
+rm: `/user/tvapk/cuiliqing/20180125vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180125vvguid": 没有那个文件或目录
+18/02/01 20:48:01 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180125vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180125vvguid
+18/02/01 20:48:04 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180125vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180125vvtmp01
+rm: `/user/tvapk/cuiliqing/20180124vvtmp01': No such file or directory
+18/02/01 20:48:14 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:48:14 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:48:15 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:48:15 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:48:15 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:48:15 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837898
+18/02/01 20:48:15 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837898
+18/02/01 20:48:15 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837898/
+18/02/01 20:48:15 INFO mapreduce.Job: Running job: job_1493284465466_837898
+18/02/01 20:48:20 INFO mapreduce.Job: Job job_1493284465466_837898 running in uber mode : false
+18/02/01 20:48:20 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:48:25 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:48:32 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:48:32 INFO mapreduce.Job: Job job_1493284465466_837898 completed successfully
+18/02/01 20:48:32 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1147743
+		FILE: Number of bytes written=2523787
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3944515
+		HDFS: Number of bytes written=1056729
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2885
+		Total time spent by all reduces in occupied slots (ms)=2683
+		Total time spent by all map tasks (ms)=2885
+		Total time spent by all reduce tasks (ms)=2683
+		Total vcore-seconds taken by all map tasks=2885
+		Total vcore-seconds taken by all reduce tasks=2683
+		Total megabyte-seconds taken by all map tasks=2954240
+		Total megabyte-seconds taken by all reduce tasks=2747392
+	Map-Reduce Framework
+		Map input records=15169
+		Map output records=15168
+		Map output bytes=1117401
+		Map output materialized bytes=1147743
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=15168
+		Reduce shuffle bytes=1147743
+		Reduce input records=15168
+		Reduce output records=15168
+		Spilled Records=30336
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=241
+		CPU time spent (ms)=2830
+		Physical memory (bytes) snapshot=520396800
+		Virtual memory (bytes) snapshot=5641347072
+		Total committed heap usage (bytes)=554696704
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1056729
+rm: `/user/tvapk/cuiliqing/20180124vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180124vvguid": 没有那个文件或目录
+18/02/01 20:48:40 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180124vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180124vvguid
+18/02/01 20:48:42 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180124vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180124vvtmp01
+rm: `/user/tvapk/cuiliqing/20180123vvtmp01': No such file or directory
+18/02/01 20:48:52 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:48:53 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:48:53 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:48:53 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:48:53 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:48:53 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837900
+18/02/01 20:48:54 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837900
+18/02/01 20:48:54 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837900/
+18/02/01 20:48:54 INFO mapreduce.Job: Running job: job_1493284465466_837900
+18/02/01 20:48:59 INFO mapreduce.Job: Job job_1493284465466_837900 running in uber mode : false
+18/02/01 20:48:59 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:49:04 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:49:09 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:49:09 INFO mapreduce.Job: Job job_1493284465466_837900 completed successfully
+18/02/01 20:49:09 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1080567
+		FILE: Number of bytes written=2389435
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3692167
+		HDFS: Number of bytes written=995115
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2663
+		Total time spent by all reduces in occupied slots (ms)=2671
+		Total time spent by all map tasks (ms)=2663
+		Total time spent by all reduce tasks (ms)=2671
+		Total vcore-seconds taken by all map tasks=2663
+		Total vcore-seconds taken by all reduce tasks=2671
+		Total megabyte-seconds taken by all map tasks=2726912
+		Total megabyte-seconds taken by all reduce tasks=2735104
+	Map-Reduce Framework
+		Map input records=14242
+		Map output records=14241
+		Map output bytes=1052079
+		Map output materialized bytes=1080567
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=14241
+		Reduce shuffle bytes=1080567
+		Reduce input records=14241
+		Reduce output records=14241
+		Spilled Records=28482
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=115
+		CPU time spent (ms)=3050
+		Physical memory (bytes) snapshot=512204800
+		Virtual memory (bytes) snapshot=5645090816
+		Total committed heap usage (bytes)=545783808
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=995115
+rm: `/user/tvapk/cuiliqing/20180123vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180123vvguid": 没有那个文件或目录
+18/02/01 20:49:18 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180123vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180123vvguid
+18/02/01 20:49:20 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180123vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180123vvtmp01
+rm: `/user/tvapk/cuiliqing/20180122vvtmp01': No such file or directory
+18/02/01 20:49:30 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:49:30 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:49:31 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:49:31 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:49:31 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:49:31 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837902
+18/02/01 20:49:31 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837902
+18/02/01 20:49:31 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837902/
+18/02/01 20:49:31 INFO mapreduce.Job: Running job: job_1493284465466_837902
+18/02/01 20:49:36 INFO mapreduce.Job: Job job_1493284465466_837902 running in uber mode : false
+18/02/01 20:49:36 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:49:42 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:49:47 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:49:47 INFO mapreduce.Job: Job job_1493284465466_837902 completed successfully
+18/02/01 20:49:47 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1091557
+		FILE: Number of bytes written=2411415
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3838693
+		HDFS: Number of bytes written=1005037
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2634
+		Total time spent by all reduces in occupied slots (ms)=2568
+		Total time spent by all map tasks (ms)=2634
+		Total time spent by all reduce tasks (ms)=2568
+		Total vcore-seconds taken by all map tasks=2634
+		Total vcore-seconds taken by all reduce tasks=2568
+		Total megabyte-seconds taken by all map tasks=2697216
+		Total megabyte-seconds taken by all reduce tasks=2629632
+	Map-Reduce Framework
+		Map input records=14420
+		Map output records=14419
+		Map output bytes=1062713
+		Map output materialized bytes=1091557
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=14419
+		Reduce shuffle bytes=1091557
+		Reduce input records=14419
+		Reduce output records=14419
+		Spilled Records=28838
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=103
+		CPU time spent (ms)=2840
+		Physical memory (bytes) snapshot=519884800
+		Virtual memory (bytes) snapshot=5641408512
+		Total committed heap usage (bytes)=571473920
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1005037
+rm: `/user/tvapk/cuiliqing/20180122vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180122vvguid": 没有那个文件或目录
+18/02/01 20:49:55 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180122vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180122vvguid
+18/02/01 20:49:57 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180122vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180122vvtmp01
+rm: `/user/tvapk/cuiliqing/20180121vvtmp01': No such file or directory
+18/02/01 20:50:07 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:50:08 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:50:08 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:50:08 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:50:08 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:50:08 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837903
+18/02/01 20:50:09 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837903
+18/02/01 20:50:09 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837903/
+18/02/01 20:50:09 INFO mapreduce.Job: Running job: job_1493284465466_837903
+18/02/01 20:50:14 INFO mapreduce.Job: Job job_1493284465466_837903 running in uber mode : false
+18/02/01 20:50:14 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:50:19 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:50:25 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:50:25 INFO mapreduce.Job: Job job_1493284465466_837903 completed successfully
+18/02/01 20:50:25 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1542944
+		FILE: Number of bytes written=3314189
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=5188655
+		HDFS: Number of bytes written=1420664
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=3180
+		Total time spent by all reduces in occupied slots (ms)=3034
+		Total time spent by all map tasks (ms)=3180
+		Total time spent by all reduce tasks (ms)=3034
+		Total vcore-seconds taken by all map tasks=3180
+		Total vcore-seconds taken by all reduce tasks=3034
+		Total megabyte-seconds taken by all map tasks=3256320
+		Total megabyte-seconds taken by all reduce tasks=3106816
+	Map-Reduce Framework
+		Map input records=20380
+		Map output records=20379
+		Map output bytes=1502180
+		Map output materialized bytes=1542944
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=20379
+		Reduce shuffle bytes=1542944
+		Reduce input records=20379
+		Reduce output records=20379
+		Spilled Records=40758
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=153
+		CPU time spent (ms)=3590
+		Physical memory (bytes) snapshot=525598720
+		Virtual memory (bytes) snapshot=5633810432
+		Total committed heap usage (bytes)=559939584
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1420664
+rm: `/user/tvapk/cuiliqing/20180121vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180121vvguid": 没有那个文件或目录
+18/02/01 20:50:34 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180121vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180121vvguid
+18/02/01 20:50:36 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180121vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180121vvtmp01
+rm: `/user/tvapk/cuiliqing/20180120vvtmp01': No such file or directory
+18/02/01 20:50:50 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:50:51 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:50:51 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:50:51 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:50:51 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:50:51 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837907
+18/02/01 20:50:51 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837907
+18/02/01 20:50:51 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837907/
+18/02/01 20:50:51 INFO mapreduce.Job: Running job: job_1493284465466_837907
+18/02/01 20:50:56 INFO mapreduce.Job: Job job_1493284465466_837907 running in uber mode : false
+18/02/01 20:50:56 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:51:02 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:51:08 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:51:08 INFO mapreduce.Job: Job job_1493284465466_837907 completed successfully
+18/02/01 20:51:08 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1630956
+		FILE: Number of bytes written=3490213
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=5568693
+		HDFS: Number of bytes written=1501704
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2974
+		Total time spent by all reduces in occupied slots (ms)=3355
+		Total time spent by all map tasks (ms)=2974
+		Total time spent by all reduce tasks (ms)=3355
+		Total vcore-seconds taken by all map tasks=2974
+		Total vcore-seconds taken by all reduce tasks=3355
+		Total megabyte-seconds taken by all map tasks=3045376
+		Total megabyte-seconds taken by all reduce tasks=3435520
+	Map-Reduce Framework
+		Map input records=21542
+		Map output records=21541
+		Map output bytes=1587868
+		Map output materialized bytes=1630956
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=21541
+		Reduce shuffle bytes=1630956
+		Reduce input records=21541
+		Reduce output records=21541
+		Spilled Records=43082
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=192
+		CPU time spent (ms)=3360
+		Physical memory (bytes) snapshot=531927040
+		Virtual memory (bytes) snapshot=5635330048
+		Total committed heap usage (bytes)=584581120
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1501704
+rm: `/user/tvapk/cuiliqing/20180120vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180120vvguid": 没有那个文件或目录
+18/02/01 20:51:18 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180120vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180120vvguid
+18/02/01 20:51:20 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180120vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180120vvtmp01
+rm: `/user/tvapk/cuiliqing/20180119vvtmp01': No such file or directory
+18/02/01 20:51:31 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:51:32 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:51:32 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:51:32 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:51:32 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:51:32 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837909
+18/02/01 20:51:32 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837909
+18/02/01 20:51:32 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837909/
+18/02/01 20:51:32 INFO mapreduce.Job: Running job: job_1493284465466_837909
+18/02/01 20:51:40 INFO mapreduce.Job: Job job_1493284465466_837909 running in uber mode : false
+18/02/01 20:51:40 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:51:45 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:51:50 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:51:51 INFO mapreduce.Job: Job job_1493284465466_837909 completed successfully
+18/02/01 20:51:51 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1312684
+		FILE: Number of bytes written=2853669
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=4592821
+		HDFS: Number of bytes written=1208728
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2757
+		Total time spent by all reduces in occupied slots (ms)=2753
+		Total time spent by all map tasks (ms)=2757
+		Total time spent by all reduce tasks (ms)=2753
+		Total vcore-seconds taken by all map tasks=2757
+		Total vcore-seconds taken by all reduce tasks=2753
+		Total megabyte-seconds taken by all map tasks=2823168
+		Total megabyte-seconds taken by all reduce tasks=2819072
+	Map-Reduce Framework
+		Map input records=17326
+		Map output records=17325
+		Map output bytes=1278028
+		Map output materialized bytes=1312684
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=17325
+		Reduce shuffle bytes=1312684
+		Reduce input records=17325
+		Reduce output records=17325
+		Spilled Records=34650
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=104
+		CPU time spent (ms)=3170
+		Physical memory (bytes) snapshot=509513728
+		Virtual memory (bytes) snapshot=5644570624
+		Total committed heap usage (bytes)=538443776
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1208728
+rm: `/user/tvapk/cuiliqing/20180119vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180119vvguid": 没有那个文件或目录
+18/02/01 20:51:59 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180119vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180119vvguid
+18/02/01 20:52:02 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180119vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180119vvtmp01
+rm: `/user/tvapk/cuiliqing/20180118vvtmp01': No such file or directory
+18/02/01 20:52:12 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:52:12 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:52:13 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:52:13 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:52:13 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:52:13 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837912
+18/02/01 20:52:13 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837912
+18/02/01 20:52:13 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837912/
+18/02/01 20:52:13 INFO mapreduce.Job: Running job: job_1493284465466_837912
+18/02/01 20:52:19 INFO mapreduce.Job: Job job_1493284465466_837912 running in uber mode : false
+18/02/01 20:52:19 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:52:23 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:52:29 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:52:29 INFO mapreduce.Job: Job job_1493284465466_837912 completed successfully
+18/02/01 20:52:30 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1158436
+		FILE: Number of bytes written=2545173
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3761810
+		HDFS: Number of bytes written=1066792
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2548
+		Total time spent by all reduces in occupied slots (ms)=3010
+		Total time spent by all map tasks (ms)=2548
+		Total time spent by all reduce tasks (ms)=3010
+		Total vcore-seconds taken by all map tasks=2548
+		Total vcore-seconds taken by all reduce tasks=3010
+		Total megabyte-seconds taken by all map tasks=2609152
+		Total megabyte-seconds taken by all reduce tasks=3082240
+	Map-Reduce Framework
+		Map input records=15274
+		Map output records=15273
+		Map output bytes=1127884
+		Map output materialized bytes=1158436
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=15273
+		Reduce shuffle bytes=1158436
+		Reduce input records=15273
+		Reduce output records=15273
+		Spilled Records=30546
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=108
+		CPU time spent (ms)=2910
+		Physical memory (bytes) snapshot=519323648
+		Virtual memory (bytes) snapshot=5633646592
+		Total committed heap usage (bytes)=569376768
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1066792
+rm: `/user/tvapk/cuiliqing/20180118vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180118vvguid": 没有那个文件或目录
+18/02/01 20:52:38 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180118vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180118vvguid
+18/02/01 20:52:40 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180118vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180118vvtmp01
+rm: `/user/tvapk/cuiliqing/20180117vvtmp01': No such file or directory
+18/02/01 20:52:50 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:52:51 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:52:51 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:52:51 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:52:51 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:52:51 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837915
+18/02/01 20:52:51 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837915
+18/02/01 20:52:51 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837915/
+18/02/01 20:52:51 INFO mapreduce.Job: Running job: job_1493284465466_837915
+18/02/01 20:52:57 INFO mapreduce.Job: Job job_1493284465466_837915 running in uber mode : false
+18/02/01 20:52:57 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:53:02 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:53:07 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:53:07 INFO mapreduce.Job: Job job_1493284465466_837915 completed successfully
+18/02/01 20:53:07 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1179509
+		FILE: Number of bytes written=2587319
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3666834
+		HDFS: Number of bytes written=1086287
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2791
+		Total time spent by all reduces in occupied slots (ms)=2786
+		Total time spent by all map tasks (ms)=2791
+		Total time spent by all reduce tasks (ms)=2786
+		Total vcore-seconds taken by all map tasks=2791
+		Total vcore-seconds taken by all reduce tasks=2786
+		Total megabyte-seconds taken by all map tasks=2857984
+		Total megabyte-seconds taken by all reduce tasks=2852864
+	Map-Reduce Framework
+		Map input records=15537
+		Map output records=15536
+		Map output bytes=1148431
+		Map output materialized bytes=1179509
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=15536
+		Reduce shuffle bytes=1179509
+		Reduce input records=15536
+		Reduce output records=15536
+		Spilled Records=31072
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=111
+		CPU time spent (ms)=3390
+		Physical memory (bytes) snapshot=508022784
+		Virtual memory (bytes) snapshot=5639565312
+		Total committed heap usage (bytes)=544735232
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1086287
+rm: `/user/tvapk/cuiliqing/20180117vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180117vvguid": 没有那个文件或目录
+18/02/01 20:53:16 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180117vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180117vvguid
+18/02/01 20:53:18 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180117vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180117vvtmp01
+rm: `/user/tvapk/cuiliqing/20180116vvtmp01': No such file or directory
+18/02/01 20:53:28 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:53:28 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:53:28 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:53:29 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:53:29 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:53:29 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837917
+18/02/01 20:53:29 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837917
+18/02/01 20:53:29 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837917/
+18/02/01 20:53:29 INFO mapreduce.Job: Running job: job_1493284465466_837917
+18/02/01 20:53:34 INFO mapreduce.Job: Job job_1493284465466_837917 running in uber mode : false
+18/02/01 20:53:34 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:53:39 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:53:45 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:53:45 INFO mapreduce.Job: Job job_1493284465466_837917 completed successfully
+18/02/01 20:53:45 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1218275
+		FILE: Number of bytes written=2664851
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3279253
+		HDFS: Number of bytes written=1121957
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=3123
+		Total time spent by all reduces in occupied slots (ms)=2846
+		Total time spent by all map tasks (ms)=3123
+		Total time spent by all reduce tasks (ms)=2846
+		Total vcore-seconds taken by all map tasks=3123
+		Total vcore-seconds taken by all reduce tasks=2846
+		Total megabyte-seconds taken by all map tasks=3197952
+		Total megabyte-seconds taken by all reduce tasks=2914304
+	Map-Reduce Framework
+		Map input records=16052
+		Map output records=16052
+		Map output bytes=1186165
+		Map output materialized bytes=1218275
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=16052
+		Reduce shuffle bytes=1218275
+		Reduce input records=16052
+		Reduce output records=16052
+		Spilled Records=32104
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=108
+		CPU time spent (ms)=3270
+		Physical memory (bytes) snapshot=488910848
+		Virtual memory (bytes) snapshot=5638344704
+		Total committed heap usage (bytes)=542638080
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1121957
+rm: `/user/tvapk/cuiliqing/20180116vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180116vvguid": 没有那个文件或目录
+18/02/01 20:53:54 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180116vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180116vvguid
+18/02/01 20:53:56 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180116vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180116vvtmp01
+rm: `/user/tvapk/cuiliqing/20180115vvtmp01': No such file or directory
+18/02/01 20:54:07 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:54:07 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:54:08 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:54:08 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:54:08 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:54:08 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837920
+18/02/01 20:54:08 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837920
+18/02/01 20:54:08 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837920/
+18/02/01 20:54:08 INFO mapreduce.Job: Running job: job_1493284465466_837920
+18/02/01 20:54:13 INFO mapreduce.Job: Job job_1493284465466_837920 running in uber mode : false
+18/02/01 20:54:13 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:54:18 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:54:24 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:54:25 INFO mapreduce.Job: Job job_1493284465466_837920 completed successfully
+18/02/01 20:54:26 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=974410
+		FILE: Number of bytes written=2177121
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=2508749
+		HDFS: Number of bytes written=897196
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=3066
+		Total time spent by all reduces in occupied slots (ms)=2850
+		Total time spent by all map tasks (ms)=3066
+		Total time spent by all reduce tasks (ms)=2850
+		Total vcore-seconds taken by all map tasks=3066
+		Total vcore-seconds taken by all reduce tasks=2850
+		Total megabyte-seconds taken by all map tasks=3139584
+		Total megabyte-seconds taken by all reduce tasks=2918400
+	Map-Reduce Framework
+		Map input records=12869
+		Map output records=12868
+		Map output bytes=948668
+		Map output materialized bytes=974410
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=12868
+		Reduce shuffle bytes=974410
+		Reduce input records=12868
+		Reduce output records=12868
+		Spilled Records=25736
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=101
+		CPU time spent (ms)=3060
+		Physical memory (bytes) snapshot=512782336
+		Virtual memory (bytes) snapshot=5644079104
+		Total committed heap usage (bytes)=560988160
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=897196
+rm: `/user/tvapk/cuiliqing/20180115vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180115vvguid": 没有那个文件或目录
+18/02/01 20:54:36 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180115vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180115vvguid
+18/02/01 20:54:38 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180115vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180115vvtmp01
+rm: `/user/tvapk/cuiliqing/20180114vvtmp01': No such file or directory
+18/02/01 20:54:47 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:54:47 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:54:48 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:54:48 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:54:48 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:54:48 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837921
+18/02/01 20:54:48 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837921
+18/02/01 20:54:48 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837921/
+18/02/01 20:54:48 INFO mapreduce.Job: Running job: job_1493284465466_837921
+18/02/01 20:54:53 INFO mapreduce.Job: Job job_1493284465466_837921 running in uber mode : false
+18/02/01 20:54:53 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:54:58 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:55:03 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:55:05 INFO mapreduce.Job: Job job_1493284465466_837921 completed successfully
+18/02/01 20:55:05 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1401793
+		FILE: Number of bytes written=3031887
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3512945
+		HDFS: Number of bytes written=1290793
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2773
+		Total time spent by all reduces in occupied slots (ms)=3152
+		Total time spent by all map tasks (ms)=2773
+		Total time spent by all reduce tasks (ms)=3152
+		Total vcore-seconds taken by all map tasks=2773
+		Total vcore-seconds taken by all reduce tasks=3152
+		Total megabyte-seconds taken by all map tasks=2839552
+		Total megabyte-seconds taken by all reduce tasks=3227648
+	Map-Reduce Framework
+		Map input records=18500
+		Map output records=18499
+		Map output bytes=1364789
+		Map output materialized bytes=1401793
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=18499
+		Reduce shuffle bytes=1401793
+		Reduce input records=18499
+		Reduce output records=18499
+		Spilled Records=36998
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=99
+		CPU time spent (ms)=3370
+		Physical memory (bytes) snapshot=522817536
+		Virtual memory (bytes) snapshot=5643005952
+		Total committed heap usage (bytes)=566231040
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1290793
+rm: `/user/tvapk/cuiliqing/20180114vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180114vvguid": 没有那个文件或目录
+18/02/01 20:55:14 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180114vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180114vvguid
+18/02/01 20:55:16 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180114vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180114vvtmp01
+rm: `/user/tvapk/cuiliqing/20180113vvtmp01': No such file or directory
+18/02/01 20:55:26 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:55:27 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:55:27 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:55:27 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:55:27 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:55:27 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837923
+18/02/01 20:55:27 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837923
+18/02/01 20:55:27 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837923/
+18/02/01 20:55:27 INFO mapreduce.Job: Running job: job_1493284465466_837923
+18/02/01 20:55:33 INFO mapreduce.Job: Job job_1493284465466_837923 running in uber mode : false
+18/02/01 20:55:33 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:55:37 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:55:42 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:55:42 INFO mapreduce.Job: Job job_1493284465466_837923 completed successfully
+18/02/01 20:55:42 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1531474
+		FILE: Number of bytes written=3291249
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3756237
+		HDFS: Number of bytes written=1410304
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2573
+		Total time spent by all reduces in occupied slots (ms)=2514
+		Total time spent by all map tasks (ms)=2573
+		Total time spent by all reduce tasks (ms)=2514
+		Total vcore-seconds taken by all map tasks=2573
+		Total vcore-seconds taken by all reduce tasks=2514
+		Total megabyte-seconds taken by all map tasks=2634752
+		Total megabyte-seconds taken by all reduce tasks=2574336
+	Map-Reduce Framework
+		Map input records=20195
+		Map output records=20194
+		Map output bytes=1491080
+		Map output materialized bytes=1531474
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=20194
+		Reduce shuffle bytes=1531474
+		Reduce input records=20194
+		Reduce output records=20194
+		Spilled Records=40388
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=138
+		CPU time spent (ms)=2680
+		Physical memory (bytes) snapshot=521502720
+		Virtual memory (bytes) snapshot=5640421376
+		Total committed heap usage (bytes)=569376768
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1410304
+rm: `/user/tvapk/cuiliqing/20180113vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180113vvguid": 没有那个文件或目录
+18/02/01 20:55:51 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180113vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180113vvguid
+18/02/01 20:55:53 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180113vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180113vvtmp01
+rm: `/user/tvapk/cuiliqing/20180112vvtmp01': No such file or directory
+18/02/01 20:56:04 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:56:04 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:56:05 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:56:05 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:56:05 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:56:05 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837926
+18/02/01 20:56:05 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837926
+18/02/01 20:56:05 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837926/
+18/02/01 20:56:05 INFO mapreduce.Job: Running job: job_1493284465466_837926
+18/02/01 20:56:10 INFO mapreduce.Job: Job job_1493284465466_837926 running in uber mode : false
+18/02/01 20:56:10 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:56:15 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:56:20 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:56:20 INFO mapreduce.Job: Job job_1493284465466_837926 completed successfully
+18/02/01 20:56:20 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1265053
+		FILE: Number of bytes written=2758407
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3448798
+		HDFS: Number of bytes written=1164943
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2734
+		Total time spent by all reduces in occupied slots (ms)=2719
+		Total time spent by all map tasks (ms)=2734
+		Total time spent by all reduce tasks (ms)=2719
+		Total vcore-seconds taken by all map tasks=2734
+		Total vcore-seconds taken by all reduce tasks=2719
+		Total megabyte-seconds taken by all map tasks=2799616
+		Total megabyte-seconds taken by all reduce tasks=2784256
+	Map-Reduce Framework
+		Map input records=16685
+		Map output records=16684
+		Map output bytes=1231679
+		Map output materialized bytes=1265053
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=16684
+		Reduce shuffle bytes=1265053
+		Reduce input records=16684
+		Reduce output records=16684
+		Spilled Records=33368
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=107
+		CPU time spent (ms)=3180
+		Physical memory (bytes) snapshot=507592704
+		Virtual memory (bytes) snapshot=5640675328
+		Total committed heap usage (bytes)=545259520
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1164943
+rm: `/user/tvapk/cuiliqing/20180112vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180112vvguid": 没有那个文件或目录
+18/02/01 20:56:29 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180112vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180112vvguid
+18/02/01 20:56:31 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180112vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180112vvtmp01
+rm: `/user/tvapk/cuiliqing/20180111vvtmp01': No such file or directory
+18/02/01 20:56:41 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:56:41 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:56:42 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:56:42 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:56:42 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:56:42 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837928
+18/02/01 20:56:42 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837928
+18/02/01 20:56:42 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837928/
+18/02/01 20:56:42 INFO mapreduce.Job: Running job: job_1493284465466_837928
+18/02/01 20:56:48 INFO mapreduce.Job: Job job_1493284465466_837928 running in uber mode : false
+18/02/01 20:56:48 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:56:52 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:56:57 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:56:58 INFO mapreduce.Job: Job job_1493284465466_837928 completed successfully
+18/02/01 20:56:58 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1152730
+		FILE: Number of bytes written=2533761
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3153293
+		HDFS: Number of bytes written=1061452
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2582
+		Total time spent by all reduces in occupied slots (ms)=2729
+		Total time spent by all map tasks (ms)=2582
+		Total time spent by all reduce tasks (ms)=2729
+		Total vcore-seconds taken by all map tasks=2582
+		Total vcore-seconds taken by all reduce tasks=2729
+		Total megabyte-seconds taken by all map tasks=2643968
+		Total megabyte-seconds taken by all reduce tasks=2794496
+	Map-Reduce Framework
+		Map input records=15213
+		Map output records=15212
+		Map output bytes=1122300
+		Map output materialized bytes=1152730
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=15212
+		Reduce shuffle bytes=1152730
+		Reduce input records=15212
+		Reduce output records=15212
+		Spilled Records=30424
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=99
+		CPU time spent (ms)=2840
+		Physical memory (bytes) snapshot=510046208
+		Virtual memory (bytes) snapshot=5642838016
+		Total committed heap usage (bytes)=566231040
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1061452
+rm: `/user/tvapk/cuiliqing/20180111vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180111vvguid": 没有那个文件或目录
+18/02/01 20:57:06 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180111vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180111vvguid
+18/02/01 20:57:09 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180111vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180111vvtmp01
+rm: `/user/tvapk/cuiliqing/20180110vvtmp01': No such file or directory
+18/02/01 20:57:18 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:57:18 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:57:19 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:57:19 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:57:19 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:57:19 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837931
+18/02/01 20:57:19 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837931
+18/02/01 20:57:19 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837931/
+18/02/01 20:57:19 INFO mapreduce.Job: Running job: job_1493284465466_837931
+18/02/01 20:57:24 INFO mapreduce.Job: Job job_1493284465466_837931 running in uber mode : false
+18/02/01 20:57:24 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:57:28 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:57:33 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:57:34 INFO mapreduce.Job: Job job_1493284465466_837931 completed successfully
+18/02/01 20:57:35 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1108031
+		FILE: Number of bytes written=2444363
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3053307
+		HDFS: Number of bytes written=1020437
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2428
+		Total time spent by all reduces in occupied slots (ms)=2696
+		Total time spent by all map tasks (ms)=2428
+		Total time spent by all reduce tasks (ms)=2696
+		Total vcore-seconds taken by all map tasks=2428
+		Total vcore-seconds taken by all reduce tasks=2696
+		Total megabyte-seconds taken by all map tasks=2486272
+		Total megabyte-seconds taken by all reduce tasks=2760704
+	Map-Reduce Framework
+		Map input records=14599
+		Map output records=14598
+		Map output bytes=1078829
+		Map output materialized bytes=1108031
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=14598
+		Reduce shuffle bytes=1108031
+		Reduce input records=14598
+		Reduce output records=14598
+		Spilled Records=29196
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=97
+		CPU time spent (ms)=2710
+		Physical memory (bytes) snapshot=514134016
+		Virtual memory (bytes) snapshot=5638590464
+		Total committed heap usage (bytes)=567279616
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1020437
+rm: `/user/tvapk/cuiliqing/20180110vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180110vvguid": 没有那个文件或目录
+18/02/01 20:57:43 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180110vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180110vvguid
+18/02/01 20:57:45 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180110vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180110vvtmp01
+rm: `/user/tvapk/cuiliqing/20180109vvtmp01': No such file or directory
+18/02/01 20:57:54 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:57:54 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:57:55 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:57:55 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:57:55 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:57:55 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837934
+18/02/01 20:57:55 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837934
+18/02/01 20:57:55 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837934/
+18/02/01 20:57:55 INFO mapreduce.Job: Running job: job_1493284465466_837934
+18/02/01 20:58:00 INFO mapreduce.Job: Job job_1493284465466_837934 running in uber mode : false
+18/02/01 20:58:00 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:58:06 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:58:10 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:58:11 INFO mapreduce.Job: Job job_1493284465466_837934 completed successfully
+18/02/01 20:58:12 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1129261
+		FILE: Number of bytes written=2486823
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3080884
+		HDFS: Number of bytes written=1040059
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=3816
+		Total time spent by all reduces in occupied slots (ms)=2755
+		Total time spent by all map tasks (ms)=3816
+		Total time spent by all reduce tasks (ms)=2755
+		Total vcore-seconds taken by all map tasks=3816
+		Total vcore-seconds taken by all reduce tasks=2755
+		Total megabyte-seconds taken by all map tasks=3907584
+		Total megabyte-seconds taken by all reduce tasks=2821120
+	Map-Reduce Framework
+		Map input records=14867
+		Map output records=14866
+		Map output bytes=1099523
+		Map output materialized bytes=1129261
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=14866
+		Reduce shuffle bytes=1129261
+		Reduce input records=14866
+		Reduce output records=14866
+		Spilled Records=29732
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=263
+		CPU time spent (ms)=3320
+		Physical memory (bytes) snapshot=512516096
+		Virtual memory (bytes) snapshot=5635842048
+		Total committed heap usage (bytes)=567279616
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1040059
+rm: `/user/tvapk/cuiliqing/20180109vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180109vvguid": 没有那个文件或目录
+18/02/01 20:58:20 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180109vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180109vvguid
+18/02/01 20:58:23 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180109vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180109vvtmp01
+rm: `/user/tvapk/cuiliqing/20180108vvtmp01': No such file or directory
+18/02/01 20:58:33 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:58:33 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:58:34 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:58:34 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:58:34 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:58:34 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837937
+18/02/01 20:58:34 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837937
+18/02/01 20:58:34 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837937/
+18/02/01 20:58:34 INFO mapreduce.Job: Running job: job_1493284465466_837937
+18/02/01 20:58:39 INFO mapreduce.Job: Job job_1493284465466_837937 running in uber mode : false
+18/02/01 20:58:39 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:58:45 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:58:51 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:58:52 INFO mapreduce.Job: Job job_1493284465466_837937 completed successfully
+18/02/01 20:58:52 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1244724
+		FILE: Number of bytes written=2717749
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3846871
+		HDFS: Number of bytes written=1146414
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=4365
+		Total time spent by all reduces in occupied slots (ms)=2518
+		Total time spent by all map tasks (ms)=4365
+		Total time spent by all reduce tasks (ms)=2518
+		Total vcore-seconds taken by all map tasks=4365
+		Total vcore-seconds taken by all reduce tasks=2518
+		Total megabyte-seconds taken by all map tasks=4469760
+		Total megabyte-seconds taken by all reduce tasks=2578432
+	Map-Reduce Framework
+		Map input records=16385
+		Map output records=16384
+		Map output bytes=1211950
+		Map output materialized bytes=1244724
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=16384
+		Reduce shuffle bytes=1244724
+		Reduce input records=16384
+		Reduce output records=16384
+		Spilled Records=32768
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=125
+		CPU time spent (ms)=3380
+		Physical memory (bytes) snapshot=507879424
+		Virtual memory (bytes) snapshot=5640572928
+		Total committed heap usage (bytes)=542113792
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1146414
+rm: `/user/tvapk/cuiliqing/20180108vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180108vvguid": 没有那个文件或目录
+18/02/01 20:59:02 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180108vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180108vvguid
+18/02/01 20:59:04 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180108vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180108vvtmp01
+rm: `/user/tvapk/cuiliqing/20180107vvtmp01': No such file or directory
+18/02/01 20:59:14 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:59:14 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:59:14 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:59:14 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:59:14 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:59:14 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837939
+18/02/01 20:59:15 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837939
+18/02/01 20:59:15 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837939/
+18/02/01 20:59:15 INFO mapreduce.Job: Running job: job_1493284465466_837939
+18/02/01 20:59:21 INFO mapreduce.Job: Job job_1493284465466_837939 running in uber mode : false
+18/02/01 20:59:21 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 20:59:25 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 20:59:30 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 20:59:30 INFO mapreduce.Job: Job job_1493284465466_837939 completed successfully
+18/02/01 20:59:30 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1890813
+		FILE: Number of bytes written=4009927
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=6139303
+		HDFS: Number of bytes written=1741227
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2561
+		Total time spent by all reduces in occupied slots (ms)=2548
+		Total time spent by all map tasks (ms)=2561
+		Total time spent by all reduce tasks (ms)=2548
+		Total vcore-seconds taken by all map tasks=2561
+		Total vcore-seconds taken by all reduce tasks=2548
+		Total megabyte-seconds taken by all map tasks=2622464
+		Total megabyte-seconds taken by all reduce tasks=2609152
+	Map-Reduce Framework
+		Map input records=24931
+		Map output records=24930
+		Map output bytes=1840947
+		Map output materialized bytes=1890813
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=24930
+		Reduce shuffle bytes=1890813
+		Reduce input records=24930
+		Reduce output records=24930
+		Spilled Records=49860
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=204
+		CPU time spent (ms)=2910
+		Physical memory (bytes) snapshot=534212608
+		Virtual memory (bytes) snapshot=5639122944
+		Total committed heap usage (bytes)=586678272
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1741227
+rm: `/user/tvapk/cuiliqing/20180107vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180107vvguid": 没有那个文件或目录
+18/02/01 20:59:39 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180107vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180107vvguid
+18/02/01 20:59:41 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180107vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180107vvtmp01
+rm: `/user/tvapk/cuiliqing/20180106vvtmp01': No such file or directory
+18/02/01 20:59:52 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 20:59:52 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 20:59:52 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 20:59:53 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 20:59:53 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 20:59:53 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837940
+18/02/01 20:59:53 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837940
+18/02/01 20:59:53 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837940/
+18/02/01 20:59:53 INFO mapreduce.Job: Running job: job_1493284465466_837940
+18/02/01 20:59:58 INFO mapreduce.Job: Job job_1493284465466_837940 running in uber mode : false
+18/02/01 20:59:58 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 21:00:03 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 21:00:08 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 21:00:08 INFO mapreduce.Job: Job job_1493284465466_837940 completed successfully
+18/02/01 21:00:08 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1900974
+		FILE: Number of bytes written=4030249
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=6282447
+		HDFS: Number of bytes written=1750644
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2452
+		Total time spent by all reduces in occupied slots (ms)=2576
+		Total time spent by all map tasks (ms)=2452
+		Total time spent by all reduce tasks (ms)=2576
+		Total vcore-seconds taken by all map tasks=2452
+		Total vcore-seconds taken by all reduce tasks=2576
+		Total megabyte-seconds taken by all map tasks=2510848
+		Total megabyte-seconds taken by all reduce tasks=2637824
+	Map-Reduce Framework
+		Map input records=25055
+		Map output records=25054
+		Map output bytes=1850860
+		Map output materialized bytes=1900974
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=25054
+		Reduce shuffle bytes=1900974
+		Reduce input records=25054
+		Reduce output records=25054
+		Spilled Records=50108
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=231
+		CPU time spent (ms)=2830
+		Physical memory (bytes) snapshot=534732800
+		Virtual memory (bytes) snapshot=5640069120
+		Total committed heap usage (bytes)=583532544
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1750644
+rm: `/user/tvapk/cuiliqing/20180106vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180106vvguid": 没有那个文件或目录
+18/02/01 21:00:18 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180106vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180106vvguid
+18/02/01 21:00:20 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180106vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180106vvtmp01
+rm: `/user/tvapk/cuiliqing/20180105vvtmp01': No such file or directory
+18/02/01 21:00:31 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 21:00:32 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 21:00:32 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 21:00:32 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 21:00:32 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 21:00:32 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837943
+18/02/01 21:00:32 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837943
+18/02/01 21:00:32 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837943/
+18/02/01 21:00:32 INFO mapreduce.Job: Running job: job_1493284465466_837943
+18/02/01 21:00:38 INFO mapreduce.Job: Job job_1493284465466_837943 running in uber mode : false
+18/02/01 21:00:38 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 21:00:44 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 21:00:49 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 21:00:49 INFO mapreduce.Job: Job job_1493284465466_837943 completed successfully
+18/02/01 21:00:49 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1421691
+		FILE: Number of bytes written=3071683
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=4657721
+		HDFS: Number of bytes written=1309317
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=3220
+		Total time spent by all reduces in occupied slots (ms)=2550
+		Total time spent by all map tasks (ms)=3220
+		Total time spent by all reduce tasks (ms)=2550
+		Total vcore-seconds taken by all map tasks=3220
+		Total vcore-seconds taken by all reduce tasks=2550
+		Total megabyte-seconds taken by all map tasks=3297280
+		Total megabyte-seconds taken by all reduce tasks=2611200
+	Map-Reduce Framework
+		Map input records=18729
+		Map output records=18728
+		Map output bytes=1384229
+		Map output materialized bytes=1421691
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=18728
+		Reduce shuffle bytes=1421691
+		Reduce input records=18728
+		Reduce output records=18728
+		Spilled Records=37456
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=109
+		CPU time spent (ms)=2970
+		Physical memory (bytes) snapshot=519745536
+		Virtual memory (bytes) snapshot=5637693440
+		Total committed heap usage (bytes)=557842432
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1309317
+rm: `/user/tvapk/cuiliqing/20180105vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180105vvguid": 没有那个文件或目录
+18/02/01 21:00:58 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180105vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180105vvguid
+18/02/01 21:01:00 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180105vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180105vvtmp01
+rm: `/user/tvapk/cuiliqing/20180104vvtmp01': No such file or directory
+18/02/01 21:01:10 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 21:01:11 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 21:01:11 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 21:01:11 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 21:01:11 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 21:01:12 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837945
+18/02/01 21:01:12 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837945
+18/02/01 21:01:12 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837945/
+18/02/01 21:01:12 INFO mapreduce.Job: Running job: job_1493284465466_837945
+18/02/01 21:01:17 INFO mapreduce.Job: Job job_1493284465466_837945 running in uber mode : false
+18/02/01 21:01:17 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 21:01:22 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 21:01:28 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 21:01:28 INFO mapreduce.Job: Job job_1493284465466_837945 completed successfully
+18/02/01 21:01:28 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1251303
+		FILE: Number of bytes written=2730907
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=4441418
+		HDFS: Number of bytes written=1152477
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2893
+		Total time spent by all reduces in occupied slots (ms)=3181
+		Total time spent by all map tasks (ms)=2893
+		Total time spent by all reduce tasks (ms)=3181
+		Total vcore-seconds taken by all map tasks=2893
+		Total vcore-seconds taken by all reduce tasks=3181
+		Total megabyte-seconds taken by all map tasks=2962432
+		Total megabyte-seconds taken by all reduce tasks=3257344
+	Map-Reduce Framework
+		Map input records=16471
+		Map output records=16470
+		Map output bytes=1218357
+		Map output materialized bytes=1251303
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=16470
+		Reduce shuffle bytes=1251303
+		Reduce input records=16470
+		Reduce output records=16470
+		Spilled Records=32940
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=100
+		CPU time spent (ms)=3020
+		Physical memory (bytes) snapshot=531402752
+		Virtual memory (bytes) snapshot=5639974912
+		Total committed heap usage (bytes)=569376768
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1152477
+rm: `/user/tvapk/cuiliqing/20180104vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180104vvguid": 没有那个文件或目录
+18/02/01 21:01:37 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180104vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180104vvguid
+18/02/01 21:01:39 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180104vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180104vvtmp01
+rm: `/user/tvapk/cuiliqing/20180103vvtmp01': No such file or directory
+18/02/01 21:01:50 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 21:01:50 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 21:01:51 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 21:01:51 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 21:01:51 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 21:01:51 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837947
+18/02/01 21:01:51 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837947
+18/02/01 21:01:51 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837947/
+18/02/01 21:01:51 INFO mapreduce.Job: Running job: job_1493284465466_837947
+18/02/01 21:01:58 INFO mapreduce.Job: Job job_1493284465466_837947 running in uber mode : false
+18/02/01 21:01:58 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 21:02:02 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 21:02:08 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 21:02:08 INFO mapreduce.Job: Job job_1493284465466_837947 completed successfully
+18/02/01 21:02:08 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1161842
+		FILE: Number of bytes written=2551985
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=4023862
+		HDFS: Number of bytes written=1070078
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2990
+		Total time spent by all reduces in occupied slots (ms)=2493
+		Total time spent by all map tasks (ms)=2990
+		Total time spent by all reduce tasks (ms)=2493
+		Total vcore-seconds taken by all map tasks=2990
+		Total vcore-seconds taken by all reduce tasks=2493
+		Total megabyte-seconds taken by all map tasks=3061760
+		Total megabyte-seconds taken by all reduce tasks=2552832
+	Map-Reduce Framework
+		Map input records=15294
+		Map output records=15293
+		Map output bytes=1131250
+		Map output materialized bytes=1161842
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=15293
+		Reduce shuffle bytes=1161842
+		Reduce input records=15293
+		Reduce output records=15293
+		Spilled Records=30586
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=131
+		CPU time spent (ms)=2880
+		Physical memory (bytes) snapshot=502427648
+		Virtual memory (bytes) snapshot=5640708096
+		Total committed heap usage (bytes)=540540928
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1070078
+rm: `/user/tvapk/cuiliqing/20180103vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180103vvguid": 没有那个文件或目录
+18/02/01 21:02:18 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180103vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180103vvguid
+18/02/01 21:02:20 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180103vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180103vvtmp01
+rm: `/user/tvapk/cuiliqing/20180102vvtmp01': No such file or directory
+18/02/01 21:02:30 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 21:02:30 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 21:02:30 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 21:02:31 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 21:02:31 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 21:02:31 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837949
+18/02/01 21:02:31 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837949
+18/02/01 21:02:31 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837949/
+18/02/01 21:02:31 INFO mapreduce.Job: Running job: job_1493284465466_837949
+18/02/01 21:02:36 INFO mapreduce.Job: Job job_1493284465466_837949 running in uber mode : false
+18/02/01 21:02:36 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 21:02:41 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 21:02:46 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 21:02:46 INFO mapreduce.Job: Job job_1493284465466_837949 completed successfully
+18/02/01 21:02:46 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1109250
+		FILE: Number of bytes written=2446801
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3675783
+		HDFS: Number of bytes written=1021620
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2475
+		Total time spent by all reduces in occupied slots (ms)=2644
+		Total time spent by all map tasks (ms)=2475
+		Total time spent by all reduce tasks (ms)=2644
+		Total vcore-seconds taken by all map tasks=2475
+		Total vcore-seconds taken by all reduce tasks=2644
+		Total megabyte-seconds taken by all map tasks=2534400
+		Total megabyte-seconds taken by all reduce tasks=2707456
+	Map-Reduce Framework
+		Map input records=14604
+		Map output records=14604
+		Map output bytes=1080036
+		Map output materialized bytes=1109250
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=14604
+		Reduce shuffle bytes=1109250
+		Reduce input records=14604
+		Reduce output records=14604
+		Spilled Records=29208
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=95
+		CPU time spent (ms)=2790
+		Physical memory (bytes) snapshot=514764800
+		Virtual memory (bytes) snapshot=5637120000
+		Total committed heap usage (bytes)=572522496
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1021620
+rm: `/user/tvapk/cuiliqing/20180102vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180102vvguid": 没有那个文件或目录
+18/02/01 21:02:55 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180102vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180102vvguid
+18/02/01 21:02:57 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180102vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180102vvtmp01
+rm: `/user/tvapk/cuiliqing/20180101vvtmp01': No such file or directory
+18/02/01 21:03:06 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 21:03:06 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+18/02/01 21:03:07 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 21:03:07 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 21:03:07 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 21:03:07 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837950
+18/02/01 21:03:07 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837950
+18/02/01 21:03:07 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837950/
+18/02/01 21:03:07 INFO mapreduce.Job: Running job: job_1493284465466_837950
+18/02/01 21:03:13 INFO mapreduce.Job: Job job_1493284465466_837950 running in uber mode : false
+18/02/01 21:03:13 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 21:03:17 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 21:03:23 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 21:03:23 INFO mapreduce.Job: Job job_1493284465466_837950 completed successfully
+18/02/01 21:03:23 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1584278
+		FILE: Number of bytes written=3396857
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=4843608
+		HDFS: Number of bytes written=1458920
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2761
+		Total time spent by all reduces in occupied slots (ms)=2537
+		Total time spent by all map tasks (ms)=2761
+		Total time spent by all reduce tasks (ms)=2537
+		Total vcore-seconds taken by all map tasks=2761
+		Total vcore-seconds taken by all reduce tasks=2537
+		Total megabyte-seconds taken by all map tasks=2827264
+		Total megabyte-seconds taken by all reduce tasks=2597888
+	Map-Reduce Framework
+		Map input records=20893
+		Map output records=20892
+		Map output bytes=1542488
+		Map output materialized bytes=1584278
+		Input split bytes=315
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=20892
+		Reduce shuffle bytes=1584278
+		Reduce input records=20892
+		Reduce output records=20892
+		Spilled Records=41784
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=99
+		CPU time spent (ms)=2650
+		Physical memory (bytes) snapshot=519315456
+		Virtual memory (bytes) snapshot=5635383296
+		Total committed heap usage (bytes)=566755328
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1458920
+rm: `/user/tvapk/cuiliqing/20180101vvguid': No such file or directory
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/20180101vvguid": 没有那个文件或目录
+18/02/01 21:03:31 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180101vvguid' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180101vvguid
+18/02/01 21:03:33 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/20180101vvtmp01' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/20180101vvtmp01
+rm: `/user/tvapk/cuiliqing/negandhistory': No such file or directory
+rm: `/user/tvapk/cuiliqing/showMvidtmp': No such file or directory
+18/02/01 21:03:48 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 21:03:49 INFO input.FileInputFormat: Total input paths to process : 31
+18/02/01 21:03:49 INFO mapreduce.JobSubmitter: number of splits:31
+18/02/01 21:03:49 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 21:03:49 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837951
+18/02/01 21:03:49 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837951
+18/02/01 21:03:49 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837951/
+18/02/01 21:03:49 INFO mapreduce.Job: Running job: job_1493284465466_837951
+18/02/01 21:03:54 INFO mapreduce.Job: Job job_1493284465466_837951 running in uber mode : false
+18/02/01 21:03:54 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 21:04:02 INFO mapreduce.Job:  map 6% reduce 0%
+18/02/01 21:04:03 INFO mapreduce.Job:  map 13% reduce 0%
+18/02/01 21:04:04 INFO mapreduce.Job:  map 23% reduce 0%
+18/02/01 21:04:05 INFO mapreduce.Job:  map 45% reduce 0%
+18/02/01 21:04:06 INFO mapreduce.Job:  map 58% reduce 0%
+18/02/01 21:04:07 INFO mapreduce.Job:  map 74% reduce 0%
+18/02/01 21:04:08 INFO mapreduce.Job:  map 84% reduce 0%
+18/02/01 21:04:09 INFO mapreduce.Job:  map 90% reduce 0%
+18/02/01 21:04:10 INFO mapreduce.Job:  map 97% reduce 0%
+18/02/01 21:04:11 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 21:04:25 INFO mapreduce.Job:  map 100% reduce 16%
+18/02/01 21:04:28 INFO mapreduce.Job:  map 100% reduce 25%
+18/02/01 21:04:31 INFO mapreduce.Job:  map 100% reduce 29%
+18/02/01 21:04:34 INFO mapreduce.Job:  map 100% reduce 35%
+18/02/01 21:04:37 INFO mapreduce.Job:  map 100% reduce 65%
+18/02/01 21:04:40 INFO mapreduce.Job:  map 100% reduce 68%
+18/02/01 21:04:43 INFO mapreduce.Job:  map 100% reduce 70%
+18/02/01 21:04:46 INFO mapreduce.Job:  map 100% reduce 72%
+18/02/01 21:04:49 INFO mapreduce.Job:  map 100% reduce 74%
+18/02/01 21:04:52 INFO mapreduce.Job:  map 100% reduce 76%
+18/02/01 21:04:55 INFO mapreduce.Job:  map 100% reduce 78%
+18/02/01 21:04:58 INFO mapreduce.Job:  map 100% reduce 80%
+18/02/01 21:05:01 INFO mapreduce.Job:  map 100% reduce 82%
+18/02/01 21:05:04 INFO mapreduce.Job:  map 100% reduce 84%
+18/02/01 21:05:07 INFO mapreduce.Job:  map 100% reduce 86%
+18/02/01 21:05:10 INFO mapreduce.Job:  map 100% reduce 88%
+18/02/01 21:05:13 INFO mapreduce.Job:  map 100% reduce 90%
+18/02/01 21:05:16 INFO mapreduce.Job:  map 100% reduce 92%
+18/02/01 21:05:19 INFO mapreduce.Job:  map 100% reduce 94%
+18/02/01 21:05:22 INFO mapreduce.Job:  map 100% reduce 97%
+18/02/01 21:05:25 INFO mapreduce.Job:  map 100% reduce 99%
+18/02/01 21:05:28 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 21:05:28 INFO mapreduce.Job: Job job_1493284465466_837951 completed successfully
+18/02/01 21:05:28 INFO mapreduce.Job: Counters: 50
+	File System Counters
+		FILE: Number of bytes read=7205877129
+		FILE: Number of bytes written=10610411891
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=4241721280
+		HDFS: Number of bytes written=974608326
+		HDFS: Number of read operations=96
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=31
+		Launched reduce tasks=1
+		Data-local map tasks=29
+		Rack-local map tasks=2
+		Total time spent by all maps in occupied slots (ms)=224879
+		Total time spent by all reduces in occupied slots (ms)=72212
+		Total time spent by all map tasks (ms)=224879
+		Total time spent by all reduce tasks (ms)=72212
+		Total vcore-seconds taken by all map tasks=224879
+		Total vcore-seconds taken by all reduce tasks=72212
+		Total megabyte-seconds taken by all map tasks=230276096
+		Total megabyte-seconds taken by all reduce tasks=73945088
+	Map-Reduce Framework
+		Map input records=971825
+		Map output records=971794
+		Map output bytes=3390267477
+		Map output materialized bytes=3394155588
+		Input split bytes=9424
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=492512
+		Reduce shuffle bytes=3394155588
+		Reduce input records=971794
+		Reduce output records=492512
+		Spilled Records=3033748
+		Shuffled Maps =31
+		Failed Shuffles=0
+		Merged Map outputs=31
+		GC time elapsed (ms)=7219
+		CPU time spent (ms)=261960
+		Physical memory (bytes) snapshot=15420272640
+		Virtual memory (bytes) snapshot=89822691328
+		Total committed heap usage (bytes)=15276703744
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=974608326
+18/02/01 21:05:33 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/showMvidtmp' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/showMvidtmp
+18/02/01 21:05:36 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/showdata' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/showdata
+rm: `/user/tvapk/cuiliqing/extWithvvHistory/neg': No such file or directory
+rm: `/user/tvapk/cuiliqing/negtmp': No such file or directory
+18/02/01 21:05:46 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 21:05:47 INFO input.FileInputFormat: Total input paths to process : 2
+18/02/01 21:05:47 INFO mapreduce.JobSubmitter: number of splits:5
+18/02/01 21:05:47 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 21:05:47 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837953
+18/02/01 21:05:48 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837953
+18/02/01 21:05:48 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837953/
+18/02/01 21:05:48 INFO mapreduce.Job: Running job: job_1493284465466_837953
+18/02/01 21:05:53 INFO mapreduce.Job: Job job_1493284465466_837953 running in uber mode : false
+18/02/01 21:05:53 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 21:06:02 INFO mapreduce.Job:  map 20% reduce 0%
+18/02/01 21:06:03 INFO mapreduce.Job:  map 60% reduce 0%
+18/02/01 21:06:04 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 21:06:16 INFO mapreduce.Job:  map 100% reduce 71%
+18/02/01 21:06:19 INFO mapreduce.Job:  map 100% reduce 74%
+18/02/01 21:06:22 INFO mapreduce.Job:  map 100% reduce 76%
+18/02/01 21:06:25 INFO mapreduce.Job:  map 100% reduce 78%
+18/02/01 21:06:28 INFO mapreduce.Job:  map 100% reduce 81%
+18/02/01 21:06:31 INFO mapreduce.Job:  map 100% reduce 84%
+18/02/01 21:06:34 INFO mapreduce.Job:  map 100% reduce 87%
+18/02/01 21:06:37 INFO mapreduce.Job:  map 100% reduce 90%
+18/02/01 21:06:40 INFO mapreduce.Job:  map 100% reduce 93%
+18/02/01 21:06:43 INFO mapreduce.Job:  map 100% reduce 95%
+18/02/01 21:06:46 INFO mapreduce.Job:  map 100% reduce 98%
+18/02/01 21:06:47 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 21:06:48 INFO mapreduce.Job: Job job_1493284465466_837953 completed successfully
+18/02/01 21:06:48 INFO mapreduce.Job: Counters: 50
+	File System Counters
+		FILE: Number of bytes read=2211793672
+		FILE: Number of bytes written=3327016131
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=1108466962
+		HDFS: Number of bytes written=2823715367
+		HDFS: Number of read operations=18
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=6
+		Launched reduce tasks=1
+		Data-local map tasks=6
+		Total time spent by all maps in occupied slots (ms)=43534
+		Total time spent by all reduces in occupied slots (ms)=39986
+		Total time spent by all map tasks (ms)=43534
+		Total time spent by all reduce tasks (ms)=39986
+		Total vcore-seconds taken by all map tasks=43534
+		Total vcore-seconds taken by all reduce tasks=39986
+		Total megabyte-seconds taken by all map tasks=44578816
+		Total megabyte-seconds taken by all reduce tasks=40945664
+	Map-Reduce Framework
+		Map input records=1202136
+		Map output records=1100783
+		Map output bytes=1102704563
+		Map output materialized bytes=1105896800
+		Input split bytes=1594
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=853281
+		Reduce shuffle bytes=1105896800
+		Reduce input records=1100783
+		Reduce output records=27056291
+		Spilled Records=3302349
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=984
+		CPU time spent (ms)=90710
+		Physical memory (bytes) snapshot=2775846912
+		Virtual memory (bytes) snapshot=16860327936
+		Total committed heap usage (bytes)=2708471808
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=2823715367
+18/02/01 21:07:09 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/negtmp' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/negtmp
+18/02/01 21:07:11 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/negandhistory' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/negandhistory
+rm: `/user/tvapk/cuiliqing/totvvguid.txt': No such file or directory
+rm: `/user/tvapk/cuiliqing/postmp': No such file or directory
+18/02/01 21:07:20 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 21:07:20 INFO input.FileInputFormat: Total input paths to process : 1
+18/02/01 21:07:20 INFO mapreduce.JobSubmitter: number of splits:1
+18/02/01 21:07:20 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 21:07:20 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837954
+18/02/01 21:07:21 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837954
+18/02/01 21:07:21 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837954/
+18/02/01 21:07:21 INFO mapreduce.Job: Running job: job_1493284465466_837954
+18/02/01 21:07:26 INFO mapreduce.Job: Job job_1493284465466_837954 running in uber mode : false
+18/02/01 21:07:26 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 21:07:37 INFO mapreduce.Job:  map 67% reduce 0%
+18/02/01 21:07:39 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 21:07:48 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 21:07:49 INFO mapreduce.Job: Job job_1493284465466_837954 completed successfully
+18/02/01 21:07:49 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=320829560
+		FILE: Number of bytes written=482727587
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=133845061
+		HDFS: Number of bytes written=157406684
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=10792
+		Total time spent by all reduces in occupied slots (ms)=7394
+		Total time spent by all map tasks (ms)=10792
+		Total time spent by all reduce tasks (ms)=7394
+		Total vcore-seconds taken by all map tasks=10792
+		Total vcore-seconds taken by all reduce tasks=7394
+		Total megabyte-seconds taken by all map tasks=11051008
+		Total megabyte-seconds taken by all reduce tasks=7571456
+	Map-Reduce Framework
+		Map input records=709624
+		Map output records=1504042
+		Map output bytes=157406684
+		Map output materialized bytes=160414774
+		Input split bytes=307
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=293554
+		Reduce shuffle bytes=160414774
+		Reduce input records=1504042
+		Reduce output records=1504042
+		Spilled Records=4512126
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=528
+		CPU time spent (ms)=20340
+		Physical memory (bytes) snapshot=831086592
+		Virtual memory (bytes) snapshot=5640646656
+		Total committed heap usage (bytes)=898105344
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=157406684
+18/02/01 21:07:53 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/postmp' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/postmp
+18/02/01 21:07:55 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/totvvguid.txt' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/totvvguid.txt
+rm: `/user/tvapk/cuiliqing/outtmp': No such file or directory
+rm: `/user/tvapk/cuiliqing/tmpfile': No such file or directory
+18/02/01 21:08:04 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 21:08:04 INFO input.FileInputFormat: Total input paths to process : 2
+18/02/01 21:08:05 INFO mapreduce.JobSubmitter: number of splits:12
+18/02/01 21:08:05 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 21:08:05 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837955
+18/02/01 21:08:05 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837955
+18/02/01 21:08:05 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837955/
+18/02/01 21:08:05 INFO mapreduce.Job: Running job: job_1493284465466_837955
+18/02/01 21:08:10 INFO mapreduce.Job: Job job_1493284465466_837955 running in uber mode : false
+18/02/01 21:08:10 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 21:08:20 INFO mapreduce.Job:  map 12% reduce 0%
+18/02/01 21:08:21 INFO mapreduce.Job:  map 31% reduce 0%
+18/02/01 21:08:22 INFO mapreduce.Job:  map 37% reduce 0%
+18/02/01 21:08:23 INFO mapreduce.Job:  map 49% reduce 0%
+18/02/01 21:08:24 INFO mapreduce.Job:  map 59% reduce 0%
+18/02/01 21:08:26 INFO mapreduce.Job:  map 69% reduce 0%
+18/02/01 21:08:27 INFO mapreduce.Job:  map 76% reduce 0%
+18/02/01 21:08:29 INFO mapreduce.Job:  map 82% reduce 0%
+18/02/01 21:08:30 INFO mapreduce.Job:  map 91% reduce 0%
+18/02/01 21:08:32 INFO mapreduce.Job:  map 94% reduce 0%
+18/02/01 21:08:33 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 21:08:49 INFO mapreduce.Job:  map 100% reduce 8%
+18/02/01 21:08:52 INFO mapreduce.Job:  map 100% reduce 11%
+18/02/01 21:08:55 INFO mapreduce.Job:  map 100% reduce 14%
+18/02/01 21:09:02 INFO mapreduce.Job:  map 100% reduce 19%
+18/02/01 21:09:05 INFO mapreduce.Job:  map 100% reduce 22%
+18/02/01 21:09:08 INFO mapreduce.Job:  map 100% reduce 28%
+18/02/01 21:09:14 INFO mapreduce.Job:  map 100% reduce 38%
+18/02/01 21:09:17 INFO mapreduce.Job:  map 100% reduce 47%
+18/02/01 21:09:20 INFO mapreduce.Job:  map 100% reduce 56%
+18/02/01 21:09:23 INFO mapreduce.Job:  map 100% reduce 66%
+18/02/01 21:09:26 INFO mapreduce.Job:  map 100% reduce 67%
+18/02/01 21:09:29 INFO mapreduce.Job:  map 100% reduce 69%
+18/02/01 21:09:32 INFO mapreduce.Job:  map 100% reduce 70%
+18/02/01 21:09:35 INFO mapreduce.Job:  map 100% reduce 72%
+18/02/01 21:09:38 INFO mapreduce.Job:  map 100% reduce 74%
+18/02/01 21:09:41 INFO mapreduce.Job:  map 100% reduce 75%
+18/02/01 21:09:44 INFO mapreduce.Job:  map 100% reduce 77%
+18/02/01 21:09:47 INFO mapreduce.Job:  map 100% reduce 79%
+18/02/01 21:09:50 INFO mapreduce.Job:  map 100% reduce 80%
+18/02/01 21:09:53 INFO mapreduce.Job:  map 100% reduce 82%
+18/02/01 21:09:56 INFO mapreduce.Job:  map 100% reduce 83%
+18/02/01 21:09:59 INFO mapreduce.Job:  map 100% reduce 85%
+18/02/01 21:10:02 INFO mapreduce.Job:  map 100% reduce 87%
+18/02/01 21:10:05 INFO mapreduce.Job:  map 100% reduce 88%
+18/02/01 21:10:08 INFO mapreduce.Job:  map 100% reduce 90%
+18/02/01 21:10:11 INFO mapreduce.Job:  map 100% reduce 92%
+18/02/01 21:10:14 INFO mapreduce.Job:  map 100% reduce 93%
+18/02/01 21:10:17 INFO mapreduce.Job:  map 100% reduce 95%
+18/02/01 21:10:20 INFO mapreduce.Job:  map 100% reduce 96%
+18/02/01 21:10:23 INFO mapreduce.Job:  map 100% reduce 98%
+18/02/01 21:10:26 INFO mapreduce.Job:  map 100% reduce 99%
+18/02/01 21:10:28 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 21:10:29 INFO mapreduce.Job: Job job_1493284465466_837955 completed successfully
+18/02/01 21:10:29 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=13280831233
+		FILE: Number of bytes written=19404977729
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=2981166908
+		HDFS: Number of bytes written=5978041843
+		HDFS: Number of read operations=39
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=12
+		Launched reduce tasks=1
+		Data-local map tasks=12
+		Total time spent by all maps in occupied slots (ms)=264764
+		Total time spent by all reduces in occupied slots (ms)=106416
+		Total time spent by all map tasks (ms)=264764
+		Total time spent by all reduce tasks (ms)=106416
+		Total vcore-seconds taken by all map tasks=264764
+		Total vcore-seconds taken by all reduce tasks=106416
+		Total megabyte-seconds taken by all map tasks=271118336
+		Total megabyte-seconds taken by all reduce tasks=108969984
+	Map-Reduce Framework
+		Map input records=28560333
+		Map output records=27901700
+		Map output bytes=5998357221
+		Map output materialized bytes=6075188276
+		Input split bytes=3897
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=481155
+		Reduce shuffle bytes=6075188276
+		Reduce input records=27901700
+		Reduce output records=27901700
+		Spilled Records=88921885
+		Shuffled Maps =12
+		Failed Shuffles=0
+		Merged Map outputs=12
+		GC time elapsed (ms)=2719
+		CPU time spent (ms)=350540
+		Physical memory (bytes) snapshot=6090727424
+		Virtual memory (bytes) snapshot=36504223744
+		Total committed heap usage (bytes)=5834801152
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=5978041843
+18/02/01 21:10:31 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/join' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/join
+18/02/01 21:10:40 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/outtmp' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/outtmp
+18/02/01 21:10:42 INFO client.RMProxy: Connecting to ResourceManager at a01.namenode.hadoop.tvapk/192.168.1.32:8032
+18/02/01 21:10:43 INFO input.FileInputFormat: Total input paths to process : 2
+18/02/01 21:10:43 INFO mapreduce.JobSubmitter: number of splits:25
+18/02/01 21:10:43 INFO Configuration.deprecation: mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+18/02/01 21:10:43 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493284465466_837958
+18/02/01 21:10:43 INFO impl.YarnClientImpl: Submitted application application_1493284465466_837958
+18/02/01 21:10:43 INFO mapreduce.Job: The url to track the job: http://a01.namenode.hadoop.tvapk:8088/proxy/application_1493284465466_837958/
+18/02/01 21:10:43 INFO mapreduce.Job: Running job: job_1493284465466_837958
+18/02/01 21:10:48 INFO mapreduce.Job: Job job_1493284465466_837958 running in uber mode : false
+18/02/01 21:10:48 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/01 21:10:59 INFO mapreduce.Job:  map 10% reduce 0%
+18/02/01 21:11:00 INFO mapreduce.Job:  map 25% reduce 0%
+18/02/01 21:11:02 INFO mapreduce.Job:  map 43% reduce 0%
+18/02/01 21:11:03 INFO mapreduce.Job:  map 60% reduce 0%
+18/02/01 21:11:04 INFO mapreduce.Job:  map 71% reduce 0%
+18/02/01 21:11:05 INFO mapreduce.Job:  map 75% reduce 0%
+18/02/01 21:11:06 INFO mapreduce.Job:  map 82% reduce 0%
+18/02/01 21:11:07 INFO mapreduce.Job:  map 86% reduce 0%
+18/02/01 21:11:08 INFO mapreduce.Job:  map 88% reduce 0%
+18/02/01 21:11:09 INFO mapreduce.Job:  map 91% reduce 0%
+18/02/01 21:11:10 INFO mapreduce.Job:  map 93% reduce 0%
+18/02/01 21:11:11 INFO mapreduce.Job:  map 94% reduce 0%
+18/02/01 21:11:12 INFO mapreduce.Job:  map 95% reduce 0%
+18/02/01 21:11:29 INFO mapreduce.Job:  map 97% reduce 0%
+18/02/01 21:11:30 INFO mapreduce.Job:  map 98% reduce 0%
+18/02/01 21:11:35 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/01 21:11:46 INFO mapreduce.Job:  map 100% reduce 9%
+18/02/01 21:11:49 INFO mapreduce.Job:  map 100% reduce 12%
+18/02/01 21:11:52 INFO mapreduce.Job:  map 100% reduce 15%
+18/02/01 21:11:55 INFO mapreduce.Job:  map 100% reduce 16%
+18/02/01 21:11:58 INFO mapreduce.Job:  map 100% reduce 20%
+18/02/01 21:12:01 INFO mapreduce.Job:  map 100% reduce 23%
+18/02/01 21:12:04 INFO mapreduce.Job:  map 100% reduce 24%
+18/02/01 21:12:07 INFO mapreduce.Job:  map 100% reduce 28%
+18/02/01 21:12:13 INFO mapreduce.Job:  map 100% reduce 32%
+18/02/01 21:12:16 INFO mapreduce.Job:  map 100% reduce 33%
+18/02/01 21:12:44 INFO mapreduce.Job:  map 100% reduce 34%
+18/02/01 21:12:47 INFO mapreduce.Job:  map 100% reduce 39%
+18/02/01 21:12:50 INFO mapreduce.Job:  map 100% reduce 43%
+18/02/01 21:12:53 INFO mapreduce.Job:  map 100% reduce 46%
+18/02/01 21:12:56 INFO mapreduce.Job:  map 100% reduce 47%
+18/02/01 21:13:00 INFO mapreduce.Job:  map 100% reduce 50%
+18/02/01 21:13:03 INFO mapreduce.Job:  map 100% reduce 55%
+18/02/01 21:13:06 INFO mapreduce.Job:  map 100% reduce 59%
+18/02/01 21:13:10 INFO mapreduce.Job:  map 100% reduce 63%
+18/02/01 21:13:13 INFO mapreduce.Job:  map 100% reduce 67%
+18/02/01 21:13:40 INFO mapreduce.Job:  map 100% reduce 68%
+18/02/01 21:14:07 INFO mapreduce.Job:  map 100% reduce 69%
+18/02/01 21:14:40 INFO mapreduce.Job:  map 100% reduce 70%
+18/02/01 21:15:10 INFO mapreduce.Job:  map 100% reduce 71%
+18/02/01 21:15:43 INFO mapreduce.Job:  map 100% reduce 72%
+18/02/01 21:16:14 INFO mapreduce.Job:  map 100% reduce 73%
+18/02/01 21:16:53 INFO mapreduce.Job:  map 100% reduce 74%
+18/02/01 21:17:26 INFO mapreduce.Job:  map 100% reduce 75%
+18/02/01 21:17:56 INFO mapreduce.Job:  map 100% reduce 76%
+18/02/01 21:18:26 INFO mapreduce.Job:  map 100% reduce 77%
+18/02/01 21:18:56 INFO mapreduce.Job:  map 100% reduce 78%
+18/02/01 21:19:26 INFO mapreduce.Job:  map 100% reduce 79%
+18/02/01 21:19:56 INFO mapreduce.Job:  map 100% reduce 80%
+18/02/01 21:20:30 INFO mapreduce.Job:  map 100% reduce 81%
+18/02/01 21:20:58 INFO mapreduce.Job:  map 100% reduce 82%
+18/02/01 21:21:28 INFO mapreduce.Job:  map 100% reduce 83%
+18/02/01 21:21:58 INFO mapreduce.Job:  map 100% reduce 84%
+18/02/01 21:22:28 INFO mapreduce.Job:  map 100% reduce 85%
+18/02/01 21:23:01 INFO mapreduce.Job:  map 100% reduce 86%
+18/02/01 21:23:28 INFO mapreduce.Job:  map 100% reduce 87%
+18/02/01 21:24:02 INFO mapreduce.Job:  map 100% reduce 88%
+18/02/01 21:24:32 INFO mapreduce.Job:  map 100% reduce 89%
+18/02/01 21:25:02 INFO mapreduce.Job:  map 100% reduce 90%
+18/02/01 21:25:32 INFO mapreduce.Job:  map 100% reduce 91%
+18/02/01 21:26:02 INFO mapreduce.Job:  map 100% reduce 92%
+18/02/01 21:26:29 INFO mapreduce.Job:  map 100% reduce 93%
+18/02/01 21:27:12 INFO mapreduce.Job:  map 100% reduce 94%
+18/02/01 21:27:45 INFO mapreduce.Job:  map 100% reduce 95%
+18/02/01 21:28:18 INFO mapreduce.Job:  map 100% reduce 96%
+18/02/01 21:28:51 INFO mapreduce.Job:  map 100% reduce 97%
+18/02/01 21:29:21 INFO mapreduce.Job:  map 100% reduce 98%
+18/02/01 21:29:51 INFO mapreduce.Job:  map 100% reduce 99%
+18/02/01 21:30:21 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/01 21:30:33 INFO mapreduce.Job: Job job_1493284465466_837958 completed successfully
+18/02/01 21:30:33 INFO mapreduce.Job: Counters: 51
+	File System Counters
+		FILE: Number of bytes read=17190859287
+		FILE: Number of bytes written=23751059778
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=6405368195
+		HDFS: Number of bytes written=7140656163
+		HDFS: Number of read operations=78
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Killed map tasks=2
+		Launched map tasks=27
+		Launched reduce tasks=1
+		Data-local map tasks=25
+		Rack-local map tasks=2
+		Total time spent by all maps in occupied slots (ms)=527560
+		Total time spent by all reduces in occupied slots (ms)=1134991
+		Total time spent by all map tasks (ms)=527560
+		Total time spent by all reduce tasks (ms)=1134991
+		Total vcore-seconds taken by all map tasks=527560
+		Total vcore-seconds taken by all reduce tasks=1134991
+		Total megabyte-seconds taken by all map tasks=540221440
+		Total megabyte-seconds taken by all reduce tasks=1162230784
+	Map-Reduce Framework
+		Map input records=28794115
+		Map output records=28794115
+		Map output bytes=6426961087
+		Map output materialized bytes=6506957127
+		Input split bytes=8177
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1032048
+		Reduce shuffle bytes=6506957127
+		Reduce input records=28794115
+		Reduce output records=14958824
+		Spilled Records=104385079
+		Shuffled Maps =25
+		Failed Shuffles=0
+		Merged Map outputs=25
+		GC time elapsed (ms)=19813
+		CPU time spent (ms)=1488530
+		Physical memory (bytes) snapshot=12241412096
+		Virtual memory (bytes) snapshot=72998907904
+		Total committed heap usage (bytes)=12504268800
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=7140656163
+rm: `/user/tvapk/cuiliqing/dataset': No such file or directory
+18/02/01 21:31:46 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/outtmp' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/outtmp
+rm: 无法删除"/data/tvapk/cuiliqing/cuiliqing/dataset": 没有那个文件或目录
+18/02/01 21:34:41 INFO fs.TrashPolicyDefault: Moved: 'hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/cuiliqing/dataset' to trash at: hdfs://a01.namenode.hadoop.tvapk:9000/user/tvapk/.Trash/Current/user/tvapk/cuiliqing/dataset
+正例样本总数： 906407
+负例样本总数： 14052417
+正例测试样本数目： 181281
+正例训练样本数目： 725126
+负例测试样本数目； 2810483
+负例训练样本数目: 11241934
+路径下 /data/tvapk/cuiliqing/cuiliqing/dataSet_cutrate/train.txt 训练样本数据文件生成
+路径下 /data/tvapk/cuiliqing/cuiliqing/dataSet_cutrate/test.txt 测试样本数据文件生成
